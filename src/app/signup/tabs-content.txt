@@ -1,0 +1,2755 @@
+
+
+<ul class="nav nav-tabs" role="tablist">
+	<li class="nav-item">
+		<a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab">14 Feb<br/>SUNDAY</a>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">15 Feb<br/>MONDAY</a>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab">16 Feb<br/>TUESDAY</a>
+	</li>
+		<li class="nav-item">
+		<a class="nav-link" data-toggle="tab" href="#tabs-4" role="tab">17 Feb<br/>Wednesday</a>
+	</li>
+		<li class="nav-item">
+		<a class="nav-link" data-toggle="tab" href="#tabs-5" role="tab">18 Feb<br/>Thursday</a>
+	</li>
+		<li class="nav-item">
+		<a class="nav-link" data-toggle="tab" href="#tabs-6" role="tab">19 Feb<br/>Friday</a>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link" data-toggle="tab" href="#tabs-7" role="tab">20 Feb<br/>Saturday</a>
+	</li>
+</ul><!-- Tab panes -->
+<div class="tab-content mt-5 pt-5">
+	<div class="tab-pane active" id="tabs-1" role="tabpanel">
+<div class="row">
+         <div class="col-lg-12">
+            <div class="tab-content schedule-tabs">
+                 
+                 
+               <div role="tabpanel" class="tab-pane active" id="date1">
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 9.30 - 10.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/fredric-martinsson/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker1.jpg" alt="Marketing Matters!"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              James Killer 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/agaton-johnsson/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker3.jpg" alt="Marketing Matters!"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Agaton Ronald 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 9.30 - 10.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/rebecca-henrikon/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker4.jpg" alt="Reinventing Experiences"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Devid Arone 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Reinventing Experiences                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 9.30 - 10.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/laura-bryant/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker7.jpg" alt="Cultures of Creativity"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Laura Bryant 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Cultures of Creativity                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/lucy-melisa/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker5.jpg" alt="Marketing Matters!"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Lucy Melisa 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                    
+                  <!--schedule-listing end -->
+               </div>
+                 
+                 
+                    
+               <div role="tabpanel" class="tab-pane" id="date2">
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/melisa-lundryn/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker2.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Melisa Rock 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/agaton-johnsson/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker3.jpg" alt=" Cultures of Creativity"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Agaton Ronald 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Cultures of Creativity                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/lucy-melisa/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker5.jpg" alt=" Human Centered Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Lucy Melisa 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human Centered Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 1.30 - 2.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/henrikon-robert/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker8.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Henri Robert 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/alen-dobra/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker4.jpg" alt=" Human  Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Alen Dobra 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human  Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                    
+                  <!--schedule-listing end -->
+               </div>
+                 
+                 
+                    
+               <div role="tabpanel" class="tab-pane" id="date3">
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/melisa-lundryn/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker2.jpg" alt=" Cultures of Creativity"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Melisa Rock 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Cultures of Creativity                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/agaton-johnsson/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker3.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Agaton Ronald 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 1.30 - 2.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/lucy-melisa/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker5.jpg" alt=" Human Centered Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Lucy Melisa 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human Centered Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/melisa-lundryn/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker2.jpg" alt=" Human  Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Melisa Rock 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human  Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/fredric-martin/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker6.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Fredric Martin 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                    
+                  <!--schedule-listing end -->
+               </div>
+                 
+                
+            </div>
+         </div>
+      </div>
+		
+	</div>
+	<div class="tab-pane" id="tabs-2" role="tabpanel">
+	<div class="row">
+         <div class="col-lg-12">
+            <div class="tab-content schedule-tabs">
+                 
+                 
+               <div role="tabpanel" class="tab-pane active" id="date1">
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 9.30 - 10.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/fredric-martinsson/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker1.jpg" alt="Marketing Matters!"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              James Killer 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/agaton-johnsson/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker3.jpg" alt="Marketing Matters!"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Agaton Ronald 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 9.30 - 10.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/rebecca-henrikon/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker4.jpg" alt="Reinventing Experiences"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Devid Arone 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Reinventing Experiences                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 9.30 - 10.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/laura-bryant/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker7.jpg" alt="Cultures of Creativity"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Laura Bryant 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Cultures of Creativity                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/lucy-melisa/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker5.jpg" alt="Marketing Matters!"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Lucy Melisa 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                    
+                  <!--schedule-listing end -->
+               </div>
+                 
+                 
+                    
+               <div role="tabpanel" class="tab-pane" id="date2">
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/melisa-lundryn/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker2.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Melisa Rock 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/agaton-johnsson/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker3.jpg" alt=" Cultures of Creativity"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Agaton Ronald 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Cultures of Creativity                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/lucy-melisa/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker5.jpg" alt=" Human Centered Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Lucy Melisa 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human Centered Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 1.30 - 2.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/henrikon-robert/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker8.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Henri Robert 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/alen-dobra/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker4.jpg" alt=" Human  Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Alen Dobra 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human  Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                    
+                  <!--schedule-listing end -->
+               </div>
+                 
+                 
+                    
+               <div role="tabpanel" class="tab-pane" id="date3">
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/melisa-lundryn/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker2.jpg" alt=" Cultures of Creativity"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Melisa Rock 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Cultures of Creativity                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/agaton-johnsson/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker3.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Agaton Ronald 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 1.30 - 2.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/lucy-melisa/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker5.jpg" alt=" Human Centered Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Lucy Melisa 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human Centered Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/melisa-lundryn/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker2.jpg" alt=" Human  Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Melisa Rock 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human  Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/fredric-martin/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker6.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Fredric Martin 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                    
+                  <!--schedule-listing end -->
+               </div>
+                 
+                
+            </div>
+         </div>
+      </div>
+	</div>
+	<div class="tab-pane" id="tabs-3" role="tabpanel">
+		<div class="row">
+         <div class="col-lg-12">
+            <div class="tab-content schedule-tabs">
+                 
+                 
+               <div role="tabpanel" class="tab-pane active" id="date1">
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 9.30 - 10.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/fredric-martinsson/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker1.jpg" alt="Marketing Matters!"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              James Killer 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/agaton-johnsson/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker3.jpg" alt="Marketing Matters!"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Agaton Ronald 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 9.30 - 10.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/rebecca-henrikon/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker4.jpg" alt="Reinventing Experiences"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Devid Arone 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Reinventing Experiences                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 9.30 - 10.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/laura-bryant/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker7.jpg" alt="Cultures of Creativity"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Laura Bryant 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Cultures of Creativity                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/lucy-melisa/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker5.jpg" alt="Marketing Matters!"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Lucy Melisa 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                    
+                  <!--schedule-listing end -->
+               </div>
+                 
+                 
+                    
+               <div role="tabpanel" class="tab-pane" id="date2">
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/melisa-lundryn/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker2.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Melisa Rock 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/agaton-johnsson/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker3.jpg" alt=" Cultures of Creativity"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Agaton Ronald 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Cultures of Creativity                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/lucy-melisa/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker5.jpg" alt=" Human Centered Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Lucy Melisa 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human Centered Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 1.30 - 2.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/henrikon-robert/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker8.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Henri Robert 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/alen-dobra/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker4.jpg" alt=" Human  Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Alen Dobra 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human  Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                    
+                  <!--schedule-listing end -->
+               </div>
+                 
+                 
+                    
+               <div role="tabpanel" class="tab-pane" id="date3">
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/melisa-lundryn/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker2.jpg" alt=" Cultures of Creativity"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Melisa Rock 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Cultures of Creativity                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/agaton-johnsson/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker3.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Agaton Ronald 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 1.30 - 2.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/lucy-melisa/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker5.jpg" alt=" Human Centered Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Lucy Melisa 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human Centered Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/melisa-lundryn/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker2.jpg" alt=" Human  Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Melisa Rock 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human  Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/fredric-martin/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker6.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Fredric Martin 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                    
+                  <!--schedule-listing end -->
+               </div>
+                 
+                
+            </div>
+         </div>
+      </div>
+	</div>
+	<div class="tab-pane" id="tabs-4" role="tabpanel">
+		<div class="row">
+         <div class="col-lg-12">
+            <div class="tab-content schedule-tabs">
+                 
+                 
+               <div role="tabpanel" class="tab-pane active" id="date1">
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 9.30 - 10.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/fredric-martinsson/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker1.jpg" alt="Marketing Matters!"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              James Killer 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/agaton-johnsson/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker3.jpg" alt="Marketing Matters!"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Agaton Ronald 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 9.30 - 10.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/rebecca-henrikon/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker4.jpg" alt="Reinventing Experiences"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Devid Arone 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Reinventing Experiences                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 9.30 - 10.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/laura-bryant/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker7.jpg" alt="Cultures of Creativity"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Laura Bryant 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Cultures of Creativity                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/lucy-melisa/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker5.jpg" alt="Marketing Matters!"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Lucy Melisa 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                    
+                  <!--schedule-listing end -->
+               </div>
+                 
+                 
+                    
+               <div role="tabpanel" class="tab-pane" id="date2">
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/melisa-lundryn/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker2.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Melisa Rock 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/agaton-johnsson/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker3.jpg" alt=" Cultures of Creativity"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Agaton Ronald 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Cultures of Creativity                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/lucy-melisa/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker5.jpg" alt=" Human Centered Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Lucy Melisa 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human Centered Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 1.30 - 2.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/henrikon-robert/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker8.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Henri Robert 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/alen-dobra/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker4.jpg" alt=" Human  Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Alen Dobra 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human  Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                    
+                  <!--schedule-listing end -->
+               </div>
+                 
+                 
+                    
+               <div role="tabpanel" class="tab-pane" id="date3">
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/melisa-lundryn/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker2.jpg" alt=" Cultures of Creativity"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Melisa Rock 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Cultures of Creativity                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/agaton-johnsson/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker3.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Agaton Ronald 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 1.30 - 2.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/lucy-melisa/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker5.jpg" alt=" Human Centered Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Lucy Melisa 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human Centered Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/melisa-lundryn/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker2.jpg" alt=" Human  Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Melisa Rock 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human  Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/fredric-martin/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker6.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Fredric Martin 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                    
+                  <!--schedule-listing end -->
+               </div>
+                 
+                
+            </div>
+         </div>
+      </div>
+	</div>
+	<div class="tab-pane" id="tabs-5" role="tabpanel">
+		<div class="row">
+         <div class="col-lg-12">
+            <div class="tab-content schedule-tabs">
+                 
+                 
+               <div role="tabpanel" class="tab-pane active" id="date1">
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 9.30 - 10.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/fredric-martinsson/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker1.jpg" alt="Marketing Matters!"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              James Killer 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/agaton-johnsson/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker3.jpg" alt="Marketing Matters!"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Agaton Ronald 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 9.30 - 10.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/rebecca-henrikon/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker4.jpg" alt="Reinventing Experiences"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Devid Arone 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Reinventing Experiences                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 9.30 - 10.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/laura-bryant/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker7.jpg" alt="Cultures of Creativity"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Laura Bryant 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Cultures of Creativity                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/lucy-melisa/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker5.jpg" alt="Marketing Matters!"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Lucy Melisa 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                    
+                  <!--schedule-listing end -->
+               </div>
+                 
+                 
+                    
+               <div role="tabpanel" class="tab-pane" id="date2">
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/melisa-lundryn/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker2.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Melisa Rock 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/agaton-johnsson/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker3.jpg" alt=" Cultures of Creativity"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Agaton Ronald 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Cultures of Creativity                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/lucy-melisa/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker5.jpg" alt=" Human Centered Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Lucy Melisa 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human Centered Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 1.30 - 2.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/henrikon-robert/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker8.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Henri Robert 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/alen-dobra/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker4.jpg" alt=" Human  Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Alen Dobra 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human  Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                    
+                  <!--schedule-listing end -->
+               </div>
+                 
+                 
+                    
+               <div role="tabpanel" class="tab-pane" id="date3">
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/melisa-lundryn/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker2.jpg" alt=" Cultures of Creativity"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Melisa Rock 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Cultures of Creativity                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/agaton-johnsson/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker3.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Agaton Ronald 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 1.30 - 2.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/lucy-melisa/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker5.jpg" alt=" Human Centered Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Lucy Melisa 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human Centered Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/melisa-lundryn/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker2.jpg" alt=" Human  Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Melisa Rock 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human  Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/fredric-martin/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker6.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Fredric Martin 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                    
+                  <!--schedule-listing end -->
+               </div>
+                 
+                
+            </div>
+         </div>
+      </div>
+	</div>
+	<div class="tab-pane" id="tabs-6" role="tabpanel">
+		<div class="row">
+         <div class="col-lg-12">
+            <div class="tab-content schedule-tabs">
+                 
+                 
+               <div role="tabpanel" class="tab-pane active" id="date1">
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 9.30 - 10.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/fredric-martinsson/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker1.jpg" alt="Marketing Matters!"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              James Killer 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/agaton-johnsson/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker3.jpg" alt="Marketing Matters!"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Agaton Ronald 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 9.30 - 10.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/rebecca-henrikon/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker4.jpg" alt="Reinventing Experiences"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Devid Arone 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Reinventing Experiences                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 9.30 - 10.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/laura-bryant/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker7.jpg" alt="Cultures of Creativity"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Laura Bryant 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Cultures of Creativity                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/lucy-melisa/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker5.jpg" alt="Marketing Matters!"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Lucy Melisa 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                    
+                  <!--schedule-listing end -->
+               </div>
+                 
+                 
+                    
+               <div role="tabpanel" class="tab-pane" id="date2">
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/melisa-lundryn/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker2.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Melisa Rock 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/agaton-johnsson/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker3.jpg" alt=" Cultures of Creativity"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Agaton Ronald 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Cultures of Creativity                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/lucy-melisa/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker5.jpg" alt=" Human Centered Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Lucy Melisa 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human Centered Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 1.30 - 2.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/henrikon-robert/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker8.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Henri Robert 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/alen-dobra/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker4.jpg" alt=" Human  Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Alen Dobra 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human  Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                    
+                  <!--schedule-listing end -->
+               </div>
+                 
+                 
+                    
+               <div role="tabpanel" class="tab-pane" id="date3">
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/melisa-lundryn/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker2.jpg" alt=" Cultures of Creativity"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Melisa Rock 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Cultures of Creativity                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/agaton-johnsson/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker3.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Agaton Ronald 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 1.30 - 2.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/lucy-melisa/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker5.jpg" alt=" Human Centered Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Lucy Melisa 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human Centered Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/melisa-lundryn/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker2.jpg" alt=" Human  Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Melisa Rock 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human  Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/fredric-martin/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker6.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Fredric Martin 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                    
+                  <!--schedule-listing end -->
+               </div>
+                 
+                
+            </div>
+         </div>
+      </div>
+	</div><div class="tab-pane" id="tabs-7" role="tabpanel">
+		<div class="row">
+         <div class="col-lg-12">
+            <div class="tab-content schedule-tabs">
+                 
+                 
+               <div role="tabpanel" class="tab-pane active" id="date1">
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 9.30 - 10.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/fredric-martinsson/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker1.jpg" alt="Marketing Matters!"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              James Killer 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/agaton-johnsson/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker3.jpg" alt="Marketing Matters!"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Agaton Ronald 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 9.30 - 10.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/rebecca-henrikon/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker4.jpg" alt="Reinventing Experiences"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Devid Arone 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Reinventing Experiences                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 9.30 - 10.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/laura-bryant/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker7.jpg" alt="Cultures of Creativity"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Laura Bryant 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Cultures of Creativity                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                      
+                     </div>
+                     <div class="schedule-slot-info">
+                                                   <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/lucy-melisa/"> 
+                              <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker5.jpg" alt="Marketing Matters!"> 
+                           </a>
+                                                <div class="schedule-slot-info-content">
+                          <p class="schedule-speaker speaker-1"> 
+                                                              Lucy Melisa 
+                                                       </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                               
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                    
+                  <!--schedule-listing end -->
+               </div>
+                 
+                 
+                    
+               <div role="tabpanel" class="tab-pane" id="date2">
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/melisa-lundryn/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker2.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Melisa Rock 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/agaton-johnsson/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker3.jpg" alt=" Cultures of Creativity"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Agaton Ronald 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Cultures of Creativity                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/lucy-melisa/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker5.jpg" alt=" Human Centered Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Lucy Melisa 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human Centered Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 1.30 - 2.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/henrikon-robert/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker8.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Henri Robert 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/alen-dobra/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker4.jpg" alt=" Human  Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Alen Dobra 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human  Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                    
+                  <!--schedule-listing end -->
+               </div>
+                 
+                 
+                    
+               <div role="tabpanel" class="tab-pane" id="date3">
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/melisa-lundryn/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker2.jpg" alt=" Cultures of Creativity"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Melisa Rock 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Cultures of Creativity                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/agaton-johnsson/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker3.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Agaton Ronald 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 1.30 - 2.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/lucy-melisa/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker5.jpg" alt=" Human Centered Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Lucy Melisa 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human Centered Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 10.30 - 11.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/melisa-lundryn/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker2.jpg" alt=" Human  Design"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Melisa Rock 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Human  Design                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                                                      <div class="schedule-listing">
+                     <div class="schedule-slot-time">
+                        <span> 12.30 - 1.30 AM </span>
+                       
+                     </div>
+                     <div class="schedule-slot-info">
+                                                 <a target="_blank" href="http://free4fitness.rcubinity.com/speaker/fredric-martin/">  <img class="schedule-slot-speakers" src="http://free4fitness.rcubinity.com/wp-content/uploads/2018/12/speaker6.jpg" alt=" Marketing Matters!"> </a>
+                                               <div class="schedule-slot-info-content">
+
+                           <p class="schedule-speaker speaker-1">
+                                                                    Fredric Martin 
+                                    
+                            </p>
+                         
+                           <h3 class="schedule-slot-title">
+                              Marketing Matters!                             
+                           </h3>
+                           <p> 
+                              </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dapibus ultrices in iaculis nunc sed augue lacus. Quam nulla porttitor massa id neque aliquam.</p>                           <p></p>
+                        </div>
+                        <!--Info content end -->
+                     </div>
+                     <!-- Slot info end -->
+                  </div>
+                    
+                  <!--schedule-listing end -->
+               </div>    
+            </div>
+         </div>
+      </div>
+	</div>
+</div>

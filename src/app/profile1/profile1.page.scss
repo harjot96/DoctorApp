@@ -1,0 +1,138 @@
+
+    .signin-outer {
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+        width: 100%;
+        position: relative;
+        h1 {
+            font-size: 30px;
+        }
+        .top-content{
+            img {
+                width: 110px;
+                height: 110px;
+                border-radius: 50%;
+                object-fit: cover;
+                position: absolute;
+                z-index: 1;
+                top: -20px;
+                left: 0;
+            }
+        } 
+        .boxx{
+            background: #ebf8fe;
+            padding: 0px 20px 10px 0;
+            width: 100%;
+            border-radius: 20px;
+            text-align: right;
+            position: relative;
+            span {
+                color: #4b5359;
+                font-size: 12px;
+            }
+            h2 {
+                font-size: 20px;
+                color: #22a1d9;
+                margin-bottom:0;
+                font-weight: 400;
+            }
+        }
+        .title{
+            margin: 0;
+            font-size: 20px;
+        }
+        .inner-sign{
+            flex:1;
+           }
+        .container {
+            margin: 50px auto 0;
+            padding: 0 30px;
+        }
+        .form-control:focus {
+            border-color: transparent;
+            box-shadow: none;
+        }
+        form {
+            margin: 30px auto 0;
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+        ::placeholder {
+            color: #393b3a !important;
+            font-weight: 400;
+        }
+        label{
+            color:#8b8b8b;
+            font-size: 17px;
+            margin-bottom: 0;
+        }
+        select {
+            border: none;
+            width: 100%;
+            z-index: 99;
+            outline: none;
+            background: transparent;
+        }
+        .sig-up {
+            z-index: 1;
+            color: #383838;
+        }
+        .main-tp{
+            input {
+                font-size: 17px !important;
+                width: 100%;
+                box-shadow: none;
+                height: 40px;
+                padding: 10px 10px;
+                border: none !important;
+                border-radius: 0 !important;
+                padding-left: 0 !important;
+                /*margin-bottom: 25px !important;*/
+                position: relative;
+               
+                &:after {
+                    position: absolute;
+                    content: "";
+                    background: url(/assets/img/correct-icon.png) no-repeat right / contain;
+                    width: 100%;
+                    height: 40%;
+                    right: 0;
+                    z-index: 999;
+                }
+            }
+            .inbox{
+                border-bottom: 2px solid #a2cdde !important;
+                i.fa.fa-check {
+                    color: #0ca9ec;
+                }
+            }
+        }
+ 
+        p.frgt {
+            color: #8b8b8b;
+            font-size: 15px;
+        }
+        @media (max-width:400px){
+            label{
+                font-size: 16px;
+            }
+            .title{
+                font-size: 16px;
+            }
+            h1 {
+                font-size: 25px;
+            }
+            input{
+                font-size: 16px !important;
+            }
+            button.btn {
+                font-size: 16px;
+                letter-spacing: 1px;
+                width: 152px;
+                padding: 0 5px !important;
+            }
+        }
+    }
+

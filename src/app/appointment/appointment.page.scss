@@ -1,0 +1,42 @@
+
+    .signin-outer {
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+        width: 100%;
+        position: relative;
+        h1 {
+            font-size: 27px;
+            font-weight: 700;
+        }
+        p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .inner-sign{
+            flex:1;
+           }
+        .container {
+            margin: 30px auto 0;
+            padding: 0 30px;
+        }        
+        .sig-up {
+            z-index: 1;
+            color: #383838;
+        }
+        @media (max-width:400px){
+            h1 {
+                font-size: 25px;
+            }
+            p {
+                font-size: 16px;
+            }
+            button.btn {
+                font-size: 16px;
+                letter-spacing: 1px;
+                width: 152px;
+                padding: 0 5px !important;
+            }
+        }
+    }
+
