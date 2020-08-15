@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-profile2',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Profile2Page implements OnInit {
 
-  constructor() { }
+  constructor(public navctrl:NavController) { }
 
   ngOnInit() {
+  }
+
+
+  home()
+  {
+this.navctrl.navigateRoot('start')
   }
 
 }

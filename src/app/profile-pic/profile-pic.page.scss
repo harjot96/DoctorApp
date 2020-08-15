@@ -8,7 +8,7 @@
        &::before {
             position: absolute;
             content: "";
-            background: url(/assets/img/topright.png) no-repeat right / contain;
+            // background: url(/assets/img/topright.png) no-repeat right / contain;
             top: 0;
             right: 0;
             width: 40%;
@@ -17,7 +17,7 @@
         &::after {
             position: absolute;
             content: "";
-            background: url(/assets/img/bottomleft.png) no-repeat left / contain;
+            // background: url(/assets/img/bottomleft.png) no-repeat left / contain;
             bottom: 0;
             left:0;
             width: 40%;
@@ -128,6 +128,9 @@
                 letter-spacing: 1px;
                 width: 152px;
                 padding: 0 5px !important;
+                color: #fff;
+                background: #0ca9ec;
+
             }
             .main-tp {
                 margin-top: 30px !important;

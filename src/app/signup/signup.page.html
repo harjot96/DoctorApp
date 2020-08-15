@@ -2,6 +2,9 @@
   <div class="signin-outer">
     <div class="inner-sign">
       <div class="container">
+        <div class="img">
+          <img  src="../../assets/img/DoctorApplogo.png" alt="">
+        </div>
         <h1 class="mb-0">Welcome</h1>
         <p class="title">SignUp Here</p>
         <!--div class="logo text-center">
@@ -33,7 +36,7 @@
               </div>
               <!--p class="text-right frgt">Forget password?</p-->
               <br/>
-              <div class="text-right"><button type="submit" class="form-control text-center signup-btn btn btn-default btn-lg"
+              <div class="text-right"><button (click)="opt()" type="submit" class="form-control text-center signup-btn btn btn-default btn-lg"
                 >CONTINUE <img src="/assets/img/continue-arrow.png"></button></div><br/><br/>
            
             </form><br />
@@ -41,6 +44,6 @@
         </div>
       </div>
     </div>
-    <p class="text-center sig-up">If you don't have an account? SIGN IN</p>
+    <p class="text-center sig-up">If you don't have an account? <span (click)="login()">SIGN IN</span> </p>
   </div>
 </ion-content>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ComponentServiceService } from '../component-service.service';
 
 @Component({
   selector: 'app-calling',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CallingPage implements OnInit {
 
-  constructor() { }
+  constructor(public component:ComponentServiceService) { }
 
   ngOnInit() {
+  }
+
+  call()
+  {
+this.component.alertButtons('Want to make call','Lorem Ipsum is simply dummy text of the printing and typesetting industry.')
   }
 
 }

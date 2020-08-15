@@ -8,7 +8,7 @@
        &::before {
             position: absolute;
             content: "";
-            background: url(/assets/img/topright.png) no-repeat right/contain;
+            // background: url(/assets/img/topright.png) no-repeat right/contain;
             top: -20px;
             right: 0;
             width: 40%;
@@ -18,7 +18,7 @@
         &::after {
             position: absolute;
             content: "";
-            background: url(/assets/img/bottomleft.png) no-repeat left / contain;
+            // background: url(/assets/img/bottomleft.png) no-repeat left / contain;
             bottom: 0;
             left:0;
             width: 40%;
@@ -35,8 +35,15 @@
             flex:1;
            }
         .container {
-            margin: 70px auto 0;
+            // margin: 70px auto 0;
             padding: 0 30px;
+            .img{
+                margin-top: 30px;
+                                text-align: center;
+                                img{
+                                    height: 150px;
+                                }
+                            }
         }
         .form-control:focus {
             border-color: transparent;
@@ -121,6 +128,8 @@
                 letter-spacing: 1px;
                 width: 152px;
                 padding: 0 5px !important;
+                background: #0ca9ec;
+                color: #fff;
             }
             .main-tp {
                 margin-top: 30px !important;

@@ -9,26 +9,36 @@ const routes: Routes = [
     children: [
       {
         path: 'tab1',
-        loadChildren: () => import('../tab1/tab1.module').then(m => m.Tab1PageModule)
+        loadChildren: () => import('../two-tabs/two-tabs.module').then(m => m.TwoTabsPageModule)
       },
+      
       {
         path: 'tab2',
-        loadChildren: () => import('../tab2/tab2.module').then(m => m.Tab2PageModule)
+        loadChildren: () => import('../appointment-list/appointment-list.module').then(m => m.AppointmentListPageModule)
       },
       {
         path: 'tab3',
-        loadChildren: () => import('../tab3/tab3.module').then(m => m.Tab3PageModule)
+        loadChildren: () => import('../calling/calling.module').then(m => m.CallingPageModule)
       },
       {
+        path: 'tab4',
+        loadChildren: () => import('../messages/messages.module').then(m => m.MessagesPageModule)
+      },
+      {
+        path: 'tab5',
+        loadChildren: () => import('../profile1/profile1.module').then(m => m.Profile1PageModule)
+      },
+   
+      {
         path: '',
-        redirectTo: '/tabs/tab1',
+        redirectTo: '/start/tabs/tab1',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/tabs/tab1',
+    redirectTo: '/start/tabs/tab1',
     pathMatch: 'full'
   }
 ];

@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
   {
-    path: '',
-    loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
-  },
+    path: 'start',
+    loadChildren: './tabs/tabs.module#TabsPageModule' },
+    
+
   {
     path: 'home',
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
@@ -89,7 +91,20 @@ const routes: Routes = [
   {
     path: 'time-slot',
     loadChildren: () => import('./time-slot/time-slot.module').then( m => m.TimeSlotPageModule)
-  }
+  },
+  {path:'aggrement',
+  loadChildren:()=>import('./agreement/agreement.module').then(m=>m.AgreementPageModule)
+},
+{path:'health-issue',
+loadChildren:()=>import('./health-issue/health-issue.module').then(m=>m.HealthIssuePageModule)
+},
+{path:'symptoms',
+loadChildren:()=>import('./symptoms/symptoms.module').then(m=>m.SymptomsPageModule)
+},
+{path:'tab',
+loadChildren:()=>import('./two-tabs/two-tabs.module').then(m=>m.TwoTabsPageModule)
+}
+
 ];
 @NgModule({
   imports: [

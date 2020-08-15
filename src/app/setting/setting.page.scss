@@ -8,7 +8,7 @@
        &::before {
             position: absolute;
             content: "";
-            background: url(/assets/img/topright.png) no-repeat right / contain;
+            // background: url(/assets/img/topright.png) no-repeat right / contain;
             top: 0;
             right: 0;
             width: 40%;
@@ -17,7 +17,7 @@
         &::after {
             position: absolute;
             content: "";
-            background: url(/assets/img/bottomleft.png) no-repeat left / contain;
+            // background: url(/assets/img/bottomleft.png) no-repeat left / contain;
             bottom: 0;
             left:0;
             width: 40%;
@@ -34,8 +34,16 @@
             flex:1;
            }
         .container {
-            margin: 50px auto 0;
+            // margin: 50px auto 0;
             padding: 0 30px;
+            .img{
+                margin-top: 30px;
+                margin-top: 10px;
+                                text-align: center;
+                                img{
+                                    height: 150px;
+                                }
+                            }
         }
         .form-control:focus {
             border-color: transparent;

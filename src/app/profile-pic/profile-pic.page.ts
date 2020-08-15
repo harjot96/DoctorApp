@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-profile-pic',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfilePicPage implements OnInit {
 
-  constructor() { }
+  constructor(public navCtrl:NavController) { }
 
   ngOnInit() {
   }
+
+profile()
+{
+  this.navCtrl.navigateForward('profile2')
+}  
 
 }
