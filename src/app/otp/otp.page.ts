@@ -15,7 +15,7 @@ export class OTPPage implements OnInit {
 
   profile()
   {
-this.navctrl.navigateForward('profile-pic')
+this.navctrl.navigateForward('aggrement')
   }
 
 }

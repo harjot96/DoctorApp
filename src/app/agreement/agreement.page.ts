@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-agreement',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AgreementPage implements OnInit {
 
-  constructor() { }
+  constructor(public navctrl:NavController) { }
 
   ngOnInit() {
+  }
+
+  accept()
+  {
+this.navctrl.navigateForward('profile-pic')
   }
 
 }
