@@ -1,0 +1,37 @@
+<ion-content>
+  <div class="signin-outer">
+    <div class="inner-sign">
+      <div class="container upr">
+        <h1 class="mb-0">Payment</h1>
+        <p class="title">$ 25.00</p>
+      </div>
+      <div class="container main-content">    
+        <div class="row main-tp">
+          <div class="col-12">
+            <h3>Select Your Card</h3>
+            <form action="#">
+              <div class="form-check d-flex justify-content-left align-items-center">
+                <input id="credit" name="paymentMethod" type="radio" placeholder="xxxx-xxxx-xxxx-xxxx" class="form-check-input" checked required>
+                 <label>XXXX-XXXX-XXXX-0213</label>
+              </div>
+              <div class="form-check d-flex justify-content-left align-items-center">
+                <input id="debit" name="paymentMethod" type="radio" placeholder="xxxx-xxxx-xxxx-xxxx" class="form-check-input" required>
+                <label>XXXX-XXXX-XXXX-0454</label>
+              </div>
+              <div class="form-check d-flex justify-content-left align-items-center">
+                <input id="paypal" name="paymentMethod" type="radio" placeholder="xxxx-xxxx-xxxx-xxxx" class="form-check-input" required>               
+                <label>XXXX-XXXX-XXXX-8754</label>
+              </div>
+              <div class="form-check d-flex justify-content-left align-items-center">
+                <input id="paypal" name="paymentMethod" type="radio" placeholder="xxxx-xxxx-xxxx-xxxx" class="form-check-input" required>               
+                <label>XXXX-XXXX-XXXX-8654</label>
+              </div>
+            </form><br />
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4 pt-2"><button type="submit" class="form-control text-center signup-btn btn btn-default btn-lg" (click)="pay()"
+        >Pay</button></div>   
+    </div>
+  </div>
+</ion-content>

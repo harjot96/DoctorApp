@@ -1,13 +1,23 @@
 <ion-content>
-  <ul class="nav nav-tabs mt-4" role="tablist">
-    <li class="nav-item">
-      <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab"><img src="/assets/img/dcotor-icon.png" alt="" width="25"> Doctor List</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab"><img src="/assets/img/nearby.png" alt="" width="25"> Nearby Doctor</a>
-    </li>
-  </ul><!-- Tab panes -->
-  <div class="row mt-3">
+  <ion-segment style="background: transparent;"  [(ngModel)]="segment" value="sunny" mode="ios"  (ionChange)="segmentChanged($event)">
+    <ion-segment-button value="sunny">
+      <ion-icon name="people-outline"></ion-icon>
+      <ion-label>Doctor List</ion-label>
+    </ion-segment-button>
+    <ion-segment-button value="rainy">
+      <ion-icon name="map"></ion-icon>
+      <ion-label>Nearby Doctor</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+  <div  [ngSwitch]="segment">
+
+
+
+<div *ngSwitchCase="'sunny'">
+ 
+
+  <div class="row mt-3"> 
     <div class="container">
       <div class="col-md-12 col-12">
         <form>
@@ -23,217 +33,134 @@
        </form>
       </div>
     </div>
+  </div> 
+  <div>
+    <div class="signin-outer">
+      <div class="inner-sign">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 inner-txt">
+              <div class="box">
+                  <div class=""><img src="/assets/img/profile-pic.png" alt="" ></div>
+                  <div>
+                    <h3>Kelly Walker</h3>
+                    <p>MBBS, OrthoMD</p>
+                    <ul class="rating">
+                       <li><img src="/assets/img/star.png" alt=""></li>
+                       <li><img src="/assets/img/star.png" alt=""></li>
+                       <li><img src="/assets/img/star.png" alt=""></li>
+                       <li><img src="/assets/img/star.png" alt=""></li>
+                       <li><img src="/assets/img/star2.png" alt=""></li>
+                    </ul>
+                  </div>
+                  <div class="status"><p>7Years Exp.</p>
+                    <a (click)="bookAppointment()">Book Appointment</a>
+                  </div>
+                </div>
+              
+                <div class="box">
+                  <div class=""><img src="/assets/img/calling2.png" alt="" ></div>
+                  <div>
+                    <h3>John Morgon</h3>
+                    <p>MBBS, OrthoMD</p>
+                    <ul class="rating">
+                      <li><img src="/assets/img/star.png" alt=""></li>
+                      <li><img src="/assets/img/star.png" alt=""></li>
+                      <li><img src="/assets/img/star.png" alt=""></li>
+                      <li><img src="/assets/img/star.png" alt=""></li>
+                      <li><img src="/assets/img/star2.png" alt=""></li>
+                   </ul>
+                  </div>
+                  <div class="status"><p>7Years Exp.</p>
+                    <a (click)="bookAppointment()">Book Appointment</a>
+                  </div>
+                </div>
+  
+                <div class="box">
+                  <div class=""><img src="/assets/img/calling3.png" alt="" ></div>
+                  <div>
+                    <h3>Fex Walker</h3>
+                    <p>MBBS, OrthoMD</p>
+                    <ul class="rating">
+                      <li><img src="/assets/img/star.png" alt=""></li>
+                      <li><img src="/assets/img/star.png" alt=""></li>
+                      <li><img src="/assets/img/star.png" alt=""></li>
+                      <li><img src="/assets/img/star.png" alt=""></li>
+                      <li><img src="/assets/img/star2.png" alt=""></li>
+                   </ul>
+                  </div>
+                  <div class="status"><p>7Years Exp.</p>
+                    <a (click)="bookAppointment()">Book Appointment</a>
+                  </div>
+                </div>
+  
+                <div class="box">
+                  <div class=""><img src="/assets/img/calling4.png" alt="" ></div>
+                  <div>
+                    <h3>Carry Stathom</h3>
+                    <p>MBBS, OrthoMD</p>
+                    <ul class="rating">
+                      <li><img src="/assets/img/star.png" alt=""></li>
+                      <li><img src="/assets/img/star.png" alt=""></li>
+                      <li><img src="/assets/img/star.png" alt=""></li>
+                      <li><img src="/assets/img/star.png" alt=""></li>
+                      <li><img src="/assets/img/star2.png" alt=""></li>
+                   </ul>
+                  </div>
+                  <div class="status"><p>7Years Exp.</p>
+                    <a (click)="bookAppointment()">Book Appointment</a>
+                  </div>
+                </div>
+                
+                <div class="box">
+                  <div class=""><img src="/assets/img/profile-pic.png" alt="" ></div>
+                  <div>
+                    <h3>Kelly Walker</h3>
+                    <p>MBBS, OrthoMD</p>
+                    <ul class="rating">
+                      <li><img src="/assets/img/star.png" alt=""></li>
+                      <li><img src="/assets/img/star.png" alt=""></li>
+                      <li><img src="/assets/img/star.png" alt=""></li>
+                      <li><img src="/assets/img/star.png" alt=""></li>
+                      <li><img src="/assets/img/star2.png" alt=""></li>
+                   </ul>
+                  </div>
+                  <div class="status"><p>7Years Exp.</p>
+                    <a (click)="bookAppointment()">Book Appointment</a>
+                  </div>
+                </div>
+                <br><br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+      </div>
+</div> 
+
+
+<div *ngSwitchCase="'rainy'" style="height: 100%;">
+  <div #map id="map"></div>
+
+</div>
+
   </div>
   
-  <div class="tab-content">
-    <div class="tab-pane active" id="tabs-1" role="tabpanel">
-
-  <div class="signin-outer">
-    <div class="inner-sign">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 inner-txt">
-            <div class="box">
-                <div class=""><img src="/assets/img/profile-pic.png" alt="" ></div>
-                <div>
-                  <h3>Kelly Walker</h3>
-                  <p>MBBS, OrthoMD</p>
-                  <ul class="rating">
-                     <li><img src="/assets/img/star.png" alt=""></li>
-                     <li><img src="/assets/img/star.png" alt=""></li>
-                     <li><img src="/assets/img/star.png" alt=""></li>
-                     <li><img src="/assets/img/star.png" alt=""></li>
-                     <li><img src="/assets/img/star2.png" alt=""></li>
-                  </ul>
-                </div>
-                <div class="status"><p>7Years Exp.</p>
-                  <a (click)="bookAppointment()">Book Appointment</a>
-                </div>
-              </div>
-            
-              <div class="box">
-                <div class=""><img src="/assets/img/calling2.png" alt="" ></div>
-                <div>
-                  <h3>John Morgon</h3>
-                  <p>MBBS, OrthoMD</p>
-                  <ul class="rating">
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star2.png" alt=""></li>
-                 </ul>
-                </div>
-                <div class="status"><p>7Years Exp.</p>
-                  <a (click)="bookAppointment()">Book Appointment</a>
-                </div>
-              </div>
-
-              <div class="box">
-                <div class=""><img src="/assets/img/calling3.png" alt="" ></div>
-                <div>
-                  <h3>Fex Walker</h3>
-                  <p>MBBS, OrthoMD</p>
-                  <ul class="rating">
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star2.png" alt=""></li>
-                 </ul>
-                </div>
-                <div class="status"><p>7Years Exp.</p>
-                  <a (click)="bookAppointment()">Book Appointment</a>
-                </div>
-              </div>
-
-              <div class="box">
-                <div class=""><img src="/assets/img/calling4.png" alt="" ></div>
-                <div>
-                  <h3>Carry Stathom</h3>
-                  <p>MBBS, OrthoMD</p>
-                  <ul class="rating">
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star2.png" alt=""></li>
-                 </ul>
-                </div>
-                <div class="status"><p>7Years Exp.</p>
-                  <a (click)="bookAppointment()">Book Appointment</a>
-                </div>
-              </div>
-              
-              <div class="box">
-                <div class=""><img src="/assets/img/profile-pic.png" alt="" ></div>
-                <div>
-                  <h3>Kelly Walker</h3>
-                  <p>MBBS, OrthoMD</p>
-                  <ul class="rating">
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star2.png" alt=""></li>
-                 </ul>
-                </div>
-                <div class="status"><p>7Years Exp.</p>
-                  <a (click)="bookAppointment()">Book Appointment</a>
-                </div>
-              </div>
-              <br><br>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-    </div>
-    <div class="tab-pane" id="tabs-2" role="tabpanel">
+  
+   <!-- <ul class="nav nav-tabs mt-4" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab"><img src="/assets/img/dcotor-icon.png" alt="" width="25"> Doctor List</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab"><img src="/assets/img/nearby.png" alt="" width="25"> Nearby Doctor</a>
+    </li>
+  </ul> --> 
+  
  
-  <div class="signin-outer">
-    <div class="inner-sign">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 inner-txt mt-3">
-            <div class="box">
-              <div class=""><img src="/assets/img/calling3.png" alt="" ></div>
-              <div>
-                <h3>Fex Walker</h3>
-                <p>MBBS, OrthoMD</p>
-                <ul class="rating">
-                  <li><img src="/assets/img/star.png" alt=""></li>
-                  <li><img src="/assets/img/star.png" alt=""></li>
-                  <li><img src="/assets/img/star.png" alt=""></li>
-                  <li><img src="/assets/img/star.png" alt=""></li>
-                  <li><img src="/assets/img/star2.png" alt=""></li>
-               </ul>
-              </div>
-              <div class="status"><p>7Years Exp.</p>
-                <a (click)="bookAppointment()">Book Appointment</a>
-              </div>
-            </div>
-
-            <div class="box">
-              <div class=""><img src="/assets/img/calling2.png" alt="" ></div>
-              <div>
-                <h3>John Morgon</h3>
-                <p>MBBS, OrthoMD</p>
-                <ul class="rating">
-                  <li><img src="/assets/img/star.png" alt=""></li>
-                  <li><img src="/assets/img/star.png" alt=""></li>
-                  <li><img src="/assets/img/star.png" alt=""></li>
-                  <li><img src="/assets/img/star.png" alt=""></li>
-                  <li><img src="/assets/img/star2.png" alt=""></li>
-               </ul>
-              </div>
-              <div class="status"><p>7Years Exp.</p>
-                <a (click)="bookAppointment()">Book Appointment</a>
-              </div>
-            </div>
-
-              <div class="box">
-                <div class=""><img src="/assets/img/profile-pic.png" alt="" ></div>
-                <div>
-                  <h3>Kelly Walker</h3>
-                  <p>MBBS, OrthoMD</p>
-                  <ul class="rating">
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star2.png" alt=""></li>
-                 </ul>
-                </div>
-                <div class="status"><p>7Years Exp.</p>
-                  <a (click)="bookAppointment()">Book Appointment</a>
-                </div>
-              </div>
-
-              <div class="box">
-                <div class=""><img src="/assets/img/calling4.png" alt="" ></div>
-                <div>
-                  <h3>Carry Stathom</h3>
-                  <p>MBBS, OrthoMD</p>
-                  <ul class="rating">
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star2.png" alt=""></li>
-                 </ul>
-                </div>
-                <div class="status"><p>7Years Exp.</p>
-                  <a (click)="bookAppointment()">Book Appointment</a>
-                </div>
-              </div>
-
-              <div class="box">
-                <div class=""><img src="/assets/img/profile-pic.png" alt="" ></div>
-                <div>
-                  <h3>Kelly Walker</h3>
-                  <p>MBBS, OrthoMD</p>
-                  <ul class="rating">
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star.png" alt=""></li>
-                    <li><img src="/assets/img/star2.png" alt=""></li>
-                 </ul>
-                </div>
-                <div class="status"><p>7Years Exp.</p>
-                  <a (click)="bookAppointment()">Book Appointment</a>
-                </div>
-              </div>
-              <br><br>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-    </div>
-  </div>
+<!-- <div class="tab-content">
+   
+    
+  </div>   -->
 
 </ion-content>

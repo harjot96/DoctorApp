@@ -1,6 +1,29 @@
+  
+  ion-segment-button {
+    --indicator-box-shadow: transparent!important;
+    --background: #ccc;
+    --color: #fff;
+    --background-checked: #0ab8f5;
+    --color-checked: white;
+    margin-right: 10px;
+    margin-left: 10px;
+    --indicator-color: transparent!important;
+    margin-top: 17px;
+  }
+
+  
+    #map{
+       
+        width: 100%;
+        height: 90vh;
+        top: 0px;
+    
+      }
+    
     .nav-tabs{    
         border-bottom: none;    
         padding: 0 10px;  
+        
         .nav-item {
             margin: 0 auto;
             a.nav-link{

@@ -9,12 +9,12 @@ const routes: Routes = [
     children: [
       {
         path: 'tab1',
-        loadChildren: () => import('../two-tabs/two-tabs.module').then(m => m.TwoTabsPageModule)
+        loadChildren: () => import('../symptoms/symptoms.module').then(m => m.SymptomsPageModule)
       },
       
       {
         path: 'tab2',
-        loadChildren: () => import('../appointment-list/appointment-list.module').then(m => m.AppointmentListPageModule)
+        loadChildren: () => import('../appointment-list2/appointment-list2.module').then(m => m.AppointmentList2PageModule)
       },
       {
         path: 'tab3',

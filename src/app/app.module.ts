@@ -9,6 +9,7 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ComponentServiceService } from './component-service.service';
+import { HeremapService } from './heremap.service';
 
 @NgModule({
   declarations: [AppComponent],
@@ -18,6 +19,7 @@ import { ComponentServiceService } from './component-service.service';
     StatusBar,
     SplashScreen,
     ComponentServiceService,
+    HeremapService,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]

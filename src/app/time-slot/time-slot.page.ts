@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-time-slot',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TimeSlotPage implements OnInit {
 
-  constructor() { }
+  constructor(public navctrl:NavController) { }
 
   ngOnInit() {
   }
 
+  bookslot(){
+    this.navctrl.navigateForward('payment')
+  }
 }

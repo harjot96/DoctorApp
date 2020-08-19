@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-symptoms',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SymptomsPage implements OnInit {
 
-  constructor() { }
+  constructor(public nactrl:NavController) { }
 
   ngOnInit() {
+  }
+
+  
+  view(){
+    this.nactrl.navigateRoot('two-tabs');
+      }
+
+  viewmore(){
+this.nactrl.navigateForward('health-issue')
   }
 
 }

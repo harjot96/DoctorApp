@@ -103,6 +103,10 @@ loadChildren:()=>import('./symptoms/symptoms.module').then(m=>m.SymptomsPageModu
 },
 {path:'tab',
 loadChildren:()=>import('./two-tabs/two-tabs.module').then(m=>m.TwoTabsPageModule)
+},
+{
+  path:'payment',
+  loadChildren:()=> import('./payment/payment.module').then(m=>m.PaymentPageModule)
 }
 
 ];
