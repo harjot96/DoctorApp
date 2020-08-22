@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { TabsPage } from './tabs.page';
 
+
 const routes: Routes = [
   {
     path: 'tabs',
@@ -9,13 +10,25 @@ const routes: Routes = [
     children: [
       {
         path: 'tab1',
-        loadChildren: () => import('../symptoms/symptoms.module').then(m => m.SymptomsPageModule)
+              loadChildren: '../symptoms/symptoms.module#SymptomsPageModule',
       },
-      
+      {
+        path: 'two-tabs',
+        loadChildren: () => import('../two-tabs/two-tabs.module').then(m => m.TwoTabsPageModule)
+      },
+      {
+        path: 'time-slot',
+        loadChildren: () => import('../time-slot/time-slot.module').then( m => m.TimeSlotPageModule)
+      },
+      {
+        path:'payment',
+        loadChildren:()=> import('../payment/payment.module').then(m=>m.PaymentPageModule)
+      },      
       {
         path: 'tab2',
         loadChildren: () => import('../appointment-list2/appointment-list2.module').then(m => m.AppointmentList2PageModule)
       },
+     
       {
         path: 'tab3',
         loadChildren: () => import('../calling/calling.module').then(m => m.CallingPageModule)
@@ -40,7 +53,9 @@ const routes: Routes = [
     path: '',
     redirectTo: '/start/tabs/tab1',
     pathMatch: 'full'
-  }
+  },
+  
+
 ];
 
 @NgModule({

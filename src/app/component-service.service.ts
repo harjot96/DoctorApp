@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
-import { AlertController, ToastController } from '@ionic/angular';
+import { AlertController, ToastController, LoadingController } from '@ionic/angular';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ComponentServiceService {
 
-  constructor(public alert:AlertController,public toastController:ToastController) {
+  constructor(public alert:AlertController,public toastController:ToastController,public loadingController:LoadingController) {
 
    }
 
@@ -52,6 +52,22 @@ export class ComponentServiceService {
 
     await alert.present();
 
+  }
+
+  async presentLoading(id) {
+    const loading = await this.loadingController.create({
+      cssClass: 'my-custom-class',
+      message: 'Please wait...',
+      backdropDismiss:false,
+      translucent:true,
+      id:id
+    });
+    await loading.present();
+  }
+
+  dismissLoader(id)
+  {
+    this.loadingController.dismiss('','',id);
   }
 
 

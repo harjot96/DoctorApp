@@ -12,28 +12,37 @@
         </div-->
         <div class="row mt-5 main-tp">
           <div class="col-12">
-            <form action="#">
+            <form [formGroup]="signupForm">
               <div class="form-group text-left">
                 <label>Enter Mobile Number</label>
                 <div class="d-flex justify-content-between align-items-center inbox">
-                  <input type="email" class="form-control" placeholder="+91 9876543210" id="email">
-                  <i class="fa fa-check" aria-hidden="true"></i>
+                  <input type="tel" class="form-control" formControlName="mobile" placeholder="Mobile number" id="email">
+                  <i *ngIf="signupForm.controls.mobile.valid" class="fa fa-check" aria-hidden="true"></i>
                 </div>               
               </div>
+              <p  *ngIf="!signupForm.controls.mobile.valid && formStatus" class="ion-text-left error" >
+                Enter valid mobile number
+              </p>
               <div class="form-group text-left">
                 <label>Password</label>
                 <div class="d-flex justify-content-between align-items-center inbox">
-                  <input type="password" class="form-control" placeholder="Pass@123" id="pwd">
-                  <i class="fa fa-check" aria-hidden="true"></i>
+                  <input type="password" class="form-control" placeholder="password" formControlName="password" id="pwd">
+                  <i *ngIf="signupForm.controls.password.valid" class="fa fa-check" aria-hidden="true"></i>
                 </div>
               </div>
+              <p  *ngIf="!signupForm.controls.password.valid && formStatus" class="ion-text-left error" >
+                Enter valid password
+              </p>
               <div class="form-group text-left">
                 <label>Confirm Password</label>
                 <div class="d-flex justify-content-between align-items-center inbox">
-                  <input type="password" class="form-control" placeholder="Pass@123" id="pwd">
-                  <i class="fa fa-check" aria-hidden="true"></i>
+                  <input type="password" class="form-control" placeholder="confirmpassword" formControlName="confirmpassword" id="pwd">
+                  <i *ngIf="signupForm.controls.confirmpassword.valid" class="fa fa-check" aria-hidden="true"></i>
                 </div>
               </div>
+              <p  *ngIf="!signupForm.controls.confirmpassword.valid && formStatus" class="ion-text-left error" >
+                Enter valid confirm password
+              </p>
               <!--p class="text-right frgt">Forget password?</p-->
               <br/>
               <div class="text-right"><button (click)="opt()" type="submit" class="form-control text-center signup-btn btn btn-default btn-lg"

@@ -51,3 +51,27 @@ input{
   outline: none;
 
 }
+.error{
+  color:red;
+}
+
+.agreement
+{
+  --background: #fff;
+    button.close{
+      color: white;
+      font-size: 15px;
+  background-color:#0f900c;
+  font-weight: bold;
+
+
+    }
+    button.yes{
+      color: white;
+      font-size: 15px;
+
+      font-weight: bold;
+  background-color:#cf0000;
+
+    }
+}

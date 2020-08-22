@@ -9,11 +9,11 @@
         <p class="title">Enter Valid OTP</p><br/>
         <div class="row mt-5 main-tp">
           <div class="col-12"><br/>
-            <form action="#">
-              <input class="active" type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}"/>
-              <input class="active" type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}"/> 
-              <input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}"/>
-              <input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}"/>
+            <form [formGroup]="otp">
+              <input class="active" type="tel" formControlName="one" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}"/>
+              <input class="active" type="tel" formControlName="two" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}"/> 
+              <input type="tel" maxLength="1" formControlName="three" size="1" min="0" max="9" pattern="[0-9]{1}"/>
+              <input type="tel" maxLength="1" formControlName="four" size="1" min="0" max="9" pattern="[0-9]{1}"/>
               <br/>
               <br/>
               <br/>

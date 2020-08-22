@@ -72,10 +72,10 @@ const routes: Routes = [
     path: 'calling',
     loadChildren: () => import('./calling/calling.module').then( m => m.CallingPageModule)
   },
-  {
-    path: 'two-tabs',
-    loadChildren: () => import('./two-tabs/two-tabs.module').then( m => m.TwoTabsPageModule)
-  },
+  // {
+  //   path: 'two-tabs',
+  //   loadChildren: () => import('./two-tabs/two-tabs.module').then( m => m.TwoTabsPageModule)
+  // },
   {
     path: 'appointment-list',
     loadChildren: () => import('./appointment-list/appointment-list.module').then( m => m.AppointmentListPageModule)
@@ -88,10 +88,7 @@ const routes: Routes = [
     path: 'location',
     loadChildren: () => import('./location/location.module').then( m => m.LocationPageModule)
   },
-  {
-    path: 'time-slot',
-    loadChildren: () => import('./time-slot/time-slot.module').then( m => m.TimeSlotPageModule)
-  },
+  
   {path:'aggrement',
   loadChildren:()=>import('./agreement/agreement.module').then(m=>m.AgreementPageModule)
 },
@@ -101,13 +98,9 @@ loadChildren:()=>import('./health-issue/health-issue.module').then(m=>m.HealthIs
 {path:'symptoms',
 loadChildren:()=>import('./symptoms/symptoms.module').then(m=>m.SymptomsPageModule)
 },
-{path:'tab',
-loadChildren:()=>import('./two-tabs/two-tabs.module').then(m=>m.TwoTabsPageModule)
-},
-{
-  path:'payment',
-  loadChildren:()=> import('./payment/payment.module').then(m=>m.PaymentPageModule)
-}
+// {path:'tab',
+// loadChildren:()=>import('./two-tabs/two-tabs.module').then(m=>m.TwoTabsPageModule)
+// },
 
 ];
 @NgModule({

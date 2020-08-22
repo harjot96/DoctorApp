@@ -37,7 +37,7 @@ export class TwoTabsPage implements OnInit {
   
   bookAppointment()
   {
-this.navctrl.navigateForward('time-slot')
+this.navctrl.navigateForward('start/tabs/time-slot')
   }
 
   loadMap() {   

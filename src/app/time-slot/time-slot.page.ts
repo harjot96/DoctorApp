@@ -14,6 +14,6 @@ export class TimeSlotPage implements OnInit {
   }
 
   bookslot(){
-    this.navctrl.navigateForward('payment')
+    this.navctrl.navigateForward('start/tabs/payment')
   }
 }

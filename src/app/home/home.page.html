@@ -14,21 +14,28 @@
         </div-->
         <div class="row mt-5 main-tp">
           <div class="col-12">
-            <form action="#">
+            <form action="#" [formGroup]="loginForm">
               <div class="form-group text-left">
                 <label>Enter Mobile Number</label>
                 <div class="d-flex justify-content-between align-items-center inbox">
-                  <input type="email" class="form-control" placeholder="+91 9876543210" id="email">
+                  <input type="tel" class="form-control" formControlName="mobile" placeholder="Mobile number" form id="email">
                   <i class="fa fa-check" aria-hidden="true"></i>
                 </div>                
               </div>
+              <p  *ngIf="!loginForm.controls.mobile.valid && formStatus" class="ion-text-left error" >
+                Enter valid mobile number
+              </p>
               <div class="form-group text-left">
                 <label>Password</label>
                 <div class="d-flex justify-content-between align-items-center inbox">
-                  <input type="password" class="form-control" placeholder="Pass@123" id="pwd">
+                  <input type="password" class="form-control" formControlName="password" placeholder="password" id="pwd">
                   <i class="fa fa-check" aria-hidden="true"></i>
                 </div>
               </div>
+              <p  *ngIf="!loginForm.controls.password.valid && formStatus" class="ion-text-left error" >
+                Enter valid password.
+              </p>
+              
               <p class="text-right frgt" (click)="forgetPassword()">Forget password?</p>
            
               <div class="text-right"><button (click)="login()" type="submit" class="form-control text-center signup-btn btn btn-default btn-lg"
