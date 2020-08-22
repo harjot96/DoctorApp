@@ -13,7 +13,6 @@ import { ComponentServiceService } from '../component-service.service';
 export class OTPPage implements OnInit {
   userId: any;
   otp:FormGroup;
-
   constructor(public navctrl:NavController,public storage:StorageService,public api:ApiService,public component:ComponentServiceService) {
     this.storage.getObject('user_Id').then((data)=>{
       this.userId=data
@@ -47,31 +46,24 @@ export class OTPPage implements OnInit {
       fd.append('otp',data),
       fd.append('device_token','aezdwt7851seew2'),
       fd.append('device_type','ios')
-    this.api.Signup('otp_verify.php',fd).subscribe((res:any)=>{
+      this.api.Signup('otp_verify.php',fd).subscribe((res:any)=>{
       console.log(res);
-      if(res.status==='Success')
-      {
+      if(res.status==='Success'){
         this.component.dismissLoader('otp');
         this.navctrl.navigateForward('aggrement');
         this.component.presentToast(res.message,'success');
         this.storage.setObject('user_token',res.data.user_token);
-      }
-      else{
+      }else{
         this.component.presentToast(res.message,'danger');
         this.component.dismissLoader('otp');
-
       }
     },err=>{
       if(err)
       {
         this.component.dismissLoader('otp');
         this.component.presentToast(err.message,'danger');
-
-
       }
     })
     }
-
   }
-
 }

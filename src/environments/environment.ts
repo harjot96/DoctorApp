@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  api_url:'http://kix.fpp.mybluehost.me/api'
+  api_url:'http://indiatopconsumercare.com/haigo/'
 
 };
 
