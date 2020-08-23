@@ -53,10 +53,11 @@ export class HomePage implements OnInit {
         fd.append('device_token', 'aezdwt7851seew2'),
         fd.append('device_type', 'ios'),
         this.api.post('login.php', fd).subscribe((res: any) => {
-          console.log(res);
+          console.log(res,res.data.token);
           if(res.status == 'Success'){
-            this.storage.setObject('user_token',res.data.token);
-            this.storage.setObject('user_Id', res.data.user_id);
+            // this.storage.setObject('user_token',res.data.token);
+            // this.storage.setObject('user_Id', res.data.user_id);
+            console.log(this.storage.getObject('user_token'));
             if (parseInt(res.data.otp_status) === 1) {
               this.component.presentToast(res.message, 'success')
               this.component.dismissLoader('login')

@@ -12,7 +12,7 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
   styleUrls: ['./profile-pic.page.scss'],
 })
 export class ProfilePicPage implements OnInit {
-  imageUpload: any = '';;
+  imageUpload='';
   user_token: any;
   profileName: FormGroup;
   fd = new FormData();
