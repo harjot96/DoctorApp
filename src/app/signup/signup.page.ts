@@ -26,6 +26,7 @@ this.navctrl.navigateRoot('home')
     this.signupForm=new FormGroup({
       mobile:new FormControl('',Validators.required),
       password:new FormControl('',Validators.required),
+      role:new FormControl('',Validators.required),
       confirmpassword:new FormControl('',Validators.required)
     })
 
@@ -41,6 +42,7 @@ this.navctrl.navigateRoot('home')
     if(this.signupForm.controls.password.value===this.signupForm.controls.confirmpassword.value){
       fd.append('password',this.signupForm.controls.password.value)
       fd.append('mobile',this.signupForm.controls.mobile.value)
+      fd.append('role',this.signupForm.controls.role.value)
       this.api.Signup('signup.php',fd).subscribe((res:any)=>{
         console.log(res);
         if(res.status==='Success')

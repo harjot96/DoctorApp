@@ -19,7 +19,7 @@
                 <label>Enter Mobile Number</label>
                 <div class="d-flex justify-content-between align-items-center inbox">
                   <input type="tel" class="form-control" formControlName="mobile" placeholder="Mobile number" form id="email">
-                  <i class="fa fa-check" aria-hidden="true"></i>
+                  <i *ngIf="loginForm.controls.mobile.valid" class="fa fa-check" aria-hidden="true"></i>
                 </div>                
               </div>
               <p  *ngIf="!loginForm.controls.mobile.valid && formStatus" class="ion-text-left error" >
@@ -29,7 +29,7 @@
                 <label>Password</label>
                 <div class="d-flex justify-content-between align-items-center inbox">
                   <input type="password" class="form-control" formControlName="password" placeholder="password" id="pwd">
-                  <i class="fa fa-check" aria-hidden="true"></i>
+                  <i *ngIf="loginForm.controls.password.valid" class="fa fa-check" aria-hidden="true"></i>
                 </div>
               </div>
               <p  *ngIf="!loginForm.controls.password.valid && formStatus" class="ion-text-left error" >

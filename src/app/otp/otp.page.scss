@@ -69,12 +69,12 @@
             color: #383838;
         }
         .main-tp{
-            input {
+          input {
                 font-size: 30px !important;
                 font-weight: 400;
                 color: #fff;
+                background :#def5fb;
                 width: calc(25% - 14px) !important;
-                background: #def5fb;
                 box-shadow: none;
                 height: 50px;
                 max-width: 50px;
@@ -99,6 +99,9 @@
             }
             input.active {
                 background: #0ab8f5 !important;
+            }
+            input.otp-invalid {
+                background: #def5fb;
             }
             .signup-btn:active {
                 background: #0ca9ec;

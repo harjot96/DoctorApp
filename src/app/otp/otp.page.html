@@ -9,11 +9,19 @@
         <p class="title">Enter Valid OTP</p><br/>
         <div class="row mt-5 main-tp">
           <div class="col-12"><br/>
-            <form [formGroup]="otp">
-              <input class="active" type="tel" formControlName="one" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}"/>
+            <form [formGroup]="verificationForm">
+                    <input type="number" class="phone-input" formControlName="input1" id="input1" [ngClass]="{'otp-invalid':verificationForm.get('input1').hasError('required') && verificationForm.get('input1').touched,'active': verificationForm.controls.input1.valid}"   #input1  (input)="otpEnter($event.target, '1',$event)">
+     
+                    <input type="number"  class="phone-input"  formControlName="input2" id="input2" [ngClass]="{'otp-invalid':verificationForm.get('input2').hasError('required') && verificationForm.get('input2').touched,'active': verificationForm.controls.input2.valid}" #input2  (input)="otpEnter($event.target, '2')">
+               
+                    <input type="number"  class="phone-input"  formControlName="input3" id="input3" [ngClass]="{'otp-invalid':verificationForm.get('input3').hasError('required') && verificationForm.get('input3').touched,'active': verificationForm.controls.input3.valid}" #input3 (input)="otpEnter($event.target, '3')">
+          
+                    <input type="number"  class="phone-input"  maxlength="1" size="1" formControlName="input4" id="input4" [ngClass]="{'otp-invalid':verificationForm.get('input4').hasError('required') && verificationForm.get('input4').touched,'active': verificationForm.controls.input4.valid}" #input4 (input)="otpEnter($event.target, '4')">
+             
+              <!-- <input class="active" type="tel" formControlName="one" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}"/>
               <input class="active" type="tel" formControlName="two" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}"/> 
               <input type="tel" maxLength="1" formControlName="three" size="1" min="0" max="9" pattern="[0-9]{1}"/>
-              <input type="tel" maxLength="1" formControlName="four" size="1" min="0" max="9" pattern="[0-9]{1}"/>
+              <input type="tel" maxLength="1" formControlName="four" size="1" min="0" max="9" pattern="[0-9]{1}"/> -->
               <br/>
               <br/>
               <br/>
