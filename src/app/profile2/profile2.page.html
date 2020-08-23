@@ -9,9 +9,18 @@
           <div class="col-12">
             <form [formGroup]="profileForm">
               <div class="form-group text-left">
+                <label>Email Address</label>
+                <div class="d-flex justify-content-between align-items-center inbox">
+                  <input type="email" class="form-control" formControlName="email" placeholder="Enter email address" id="loc">
+                </div>
+              </div>
+              <p  *ngIf="!profileForm.controls.email.valid && formStatus" class="ion-text-left error" >
+                Enter email
+              </p>
+              <div class="form-group text-left">
                 <label>Gender</label>
                 <div class="d-flex justify-content-between align-items-center inbox">
-                  <ion-select id="gender1" formControlName="gender" interface="action-sheet">
+                  <ion-select id="gender1" formControlName="gender" interface="action-sheet" placeholder ="Select gender">
                     <ion-select-option value="female">Female</ion-select-option>
                     <ion-select-option value="male">Male</ion-select-option>
                   </ion-select>
@@ -23,12 +32,33 @@
               <div class="form-group text-left">
                 <label>Location</label>
                 <div class="d-flex justify-content-between align-items-center inbox">
-                  <input type="text" class="form-control" formControlName="location" placeholder="Enter location" id="loc">
+                  <ion-searchbar
+                  lines="none"
+                  class="form-control"
+                  placeholder="Location"
+                  formControlName="location"
+                  [showCancelButton]="false"
+                  (ionInput)="updateSearch()"
+                  (ionCancel)="dismiss()"
+                >
+                </ion-searchbar>
+                  <!-- <input type="text" class="form-control" formControlName="location" placeholder="Enter location" id="loc"> -->
                 </div>
+                
               </div>
               <p  *ngIf="!profileForm.controls.location.valid && formStatus" class="ion-text-left error" >
                 Enter valid location
               </p>
+              <div *ngIf="autocompleteItems.length>0" class="search-content">
+                <ion-label class="label-select">Select Address</ion-label>
+                <ion-item
+                  *ngFor="let item of autocompleteItems"
+                  tappable
+                  (click)="chooseItem(item)"
+                >
+                  {{ item }}
+                </ion-item>
+              </div>
               <div class="form-group text-left">
                 <label>City</label>
                 <div class="d-flex justify-content-between align-items-center inbox">

@@ -11,13 +11,17 @@ import { StorageService } from '../storage.service';
 })
 export class AgreementPage implements OnInit {
 user_token:any;
+registerData:any='';
   constructor(public navctrl:NavController,public component:ComponentServiceService,public api:ApiService,public storage:StorageService) {
     this.storage.getObject('user_token').then((data)=>{
       this.user_token=data;
     })
+
    }
 
   ngOnInit() {
+    this.registerData = JSON.parse(localStorage.getItem('registerData'));
+    console.log(this.registerData)
   }
 
   decline()
@@ -50,7 +54,7 @@ this.navctrl.navigateRoot('home')
 
     this.component.presentLoading('agreement');
     let fd=new FormData();
-    fd.append('user_token',this.user_token),
+    fd.append('user_token',this.registerData.token),
     fd.append('agreement_status','1')
     this.api.post('agreement.php',fd).subscribe((res:any)=>{
       console.log(res);

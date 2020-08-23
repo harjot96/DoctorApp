@@ -13,14 +13,22 @@ declare var $:any;
 export class OTPPage implements OnInit {
   userId: any;
   verificationForm:FormGroup;
+  registerData:any='';
   @ViewChild('input1', { static: false }) input1: IonInput;
   @ViewChild('input2', { static: false }) input2: IonInput;
   @ViewChild('input3', { static: false }) input3: IonInput;
   @ViewChild('input4', { static: false }) input4: IonInput;
   constructor(private formBuilder:FormBuilder,public navctrl:NavController,public storage:StorageService,public api:ApiService,public component:ComponentServiceService) {
+    this.verificationForm = this.formBuilder.group({
+      input1: ['', Validators.compose([Validators.required])],
+      input2: ['', Validators.compose([Validators.required])],
+      input3: ['', Validators.compose([Validators.required])],
+      input4: ['', Validators.compose([Validators.required])],
+    });
     this.storage.getObject('user_Id').then((data)=>{
-      this.userId=data
+      this.userId = data
     })
+  
     console.log(this.userId);
     var that =this;
     $('body').on('keyup', 'input.phone-input', function(event){
@@ -55,23 +63,10 @@ export class OTPPage implements OnInit {
    }
 
   ngOnInit() {
-    this.optForm();
-  }
+    this.registerData = JSON.parse(localStorage.getItem('registerData'))
+    }
 
-  optForm():void{
-    // this.otp=new FormGroup({
-    //   one:new FormControl('',Validators.required),
-    //   two:new FormControl('',Validators.required),
-    //   three:new FormControl('',Validators.required),
-    //   four:new FormControl('',Validators.required),
-    // })
-    this.verificationForm = this.formBuilder.group({
-      input1: ['', Validators.compose([Validators.required])],
-      input2: ['', Validators.compose([Validators.required])],
-      input3: ['', Validators.compose([Validators.required])],
-      input4: ['', Validators.compose([Validators.required])],
-    });
-  }
+ 
 
   profile()
   {
@@ -79,10 +74,11 @@ export class OTPPage implements OnInit {
     if(this.verificationForm.valid)
     {
       this.component.presentLoading('otp')
-      let data=this.verificationForm.controls.input1.value+this.verificationForm.controls.input2.value+this.verificationForm.controls.input3.value+this.verificationForm.controls.input4.value;
+      var fullotpdata=this.verificationForm.value.input1+this.verificationForm.value.input2+this.verificationForm.value.input3+this.verificationForm.value.input4;
       let fd=new FormData();
+      console.log(fullotpdata)
       fd.append('user_id',this.userId),
-      fd.append('otp',data),
+      fd.append('otp',fullotpdata),
       fd.append('device_token','aezdwt7851seew2'),
       fd.append('device_type','ios')
       this.api.Signup('otp_verify.php',fd).subscribe((res:any)=>{
@@ -105,19 +101,25 @@ export class OTPPage implements OnInit {
     })
     }
   }
-  otpEnter(evt, val, event) {
-    console.log('OTP',event, evt.value, val);
+  otpEnter(evt, val) {
+    console.log('OTP', evt.value, val);
     if (evt.value.length) {
       if (val == 1) {
         document.getElementById("input2").focus();
+        this.verificationForm.controls.input1.setValue(evt.value);
         // this.input2.setFocus();
       } else if (val == 2) {
+        this.verificationForm.controls.input2.setValue(evt.value);
+
         document.getElementById("input3").focus();
         // this.input3.setFocus();
       } else if (val == 3) {
+        this.verificationForm.controls.input3.setValue(evt.value);
+
         document.getElementById("input4").focus();
         // this.input4.setFocus();
       } else if (val == 4) {
+        this.verificationForm.controls.input4.setValue(evt.value);
         
       }
     }

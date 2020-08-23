@@ -49,8 +49,10 @@ this.navctrl.navigateRoot('home')
         {
           this.component.dismissLoader('signup');
           this.storage.setObject('user_Id',res.data.user_id);
+          // this.storage.setObject('registerData',res.data);
+          localStorage.setItem('registerData',JSON.stringify(res.data))
           this.navctrl.navigateForward('otp')
-        this.component.presentToast(res.message,'success');
+          this.component.presentToast(res.message,'success');
         }
         else{
           this.component.dismissLoader('signup');

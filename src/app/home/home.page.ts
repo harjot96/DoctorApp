@@ -34,7 +34,7 @@ export class HomePage implements OnInit {
   signup() {
     this.navctrl.navigateForward('signup');
   }
-  profile(){
+  profile() {
     this.navctrl.navigateForward('profile-pic');
   }
 
@@ -48,47 +48,46 @@ export class HomePage implements OnInit {
     if (this.loginForm.valid) {
       this.component.presentLoading('login');
       let fd = new FormData();
-        fd.append('mobile', this.loginForm.controls.mobile.value),
+      fd.append('mobile', this.loginForm.controls.mobile.value),
         fd.append('password', this.loginForm.controls.password.value),
         fd.append('device_token', 'aezdwt7851seew2'),
         fd.append('device_type', 'ios'),
         this.api.post('login.php', fd).subscribe((res: any) => {
-          console.log(res,res.data.token);
-          if(res.status == 'Success'){
-            // this.storage.setObject('user_token',res.data.token);
-            // this.storage.setObject('user_Id', res.data.user_id);
-            console.log(this.storage.getObject('user_token'));
-            if (parseInt(res.data.otp_status) === 1) {
+          console.log(res, res.data.token);
+          if (res.status == 'Success') {
+            localStorage.setItem('registerData', JSON.stringify(res.data));
+             if (parseInt(res.data.otp_status) === 1) {
               this.component.presentToast(res.message, 'success')
               this.component.dismissLoader('login')
               if (parseInt(res.data.agreement_status) === 1) {
                 if (parseInt(res.data.profile_image_status) === 1) {
-                  if ( parseInt(res.data.basic_info_status) ===1) {
-                    this.navctrl.navigateRoot('start');                
-                  }
-                  else {
+                  if (parseInt(res.data.basic_info_status) === 1) {
+                    localStorage.setItem('userData', JSON.stringify(res.data));
+                    this.navctrl.navigateRoot('start');
+                  } else {
                     this.navctrl.navigateForward('profile2');
                   }
                 }
                 else {
-                  this.navctrl.navigateForward('profile-pic');
+                  this.navctrl.navigateForward('profile2');
+                  // this.navctrl.navigateForward('profile-pic');
                 }
               } else {
                 this.navctrl.navigateForward('aggrement');
               }
-            }else{
+            } else {
               this.component.dismissLoader('login')
               this.navctrl.navigateForward('otp');
               this.component.presentToast(res.message, 'danger');
             }
-          }else{
+          } else {
             this.component.dismissLoader('login')
             this.component.presentToast(res.message, 'danger');
 
           }
-         
+
           // debugger
-        
+
         }, err => {
           if (err) {
             this.component.dismissLoader('login');
