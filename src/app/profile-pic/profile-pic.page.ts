@@ -12,7 +12,7 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
   styleUrls: ['./profile-pic.page.scss'],
 })
 export class ProfilePicPage implements OnInit {
-  imageUpload: string;
+  imageUpload='';
   user_token: any;
   profileName:FormGroup;
   fd=new FormData();
@@ -30,15 +30,32 @@ profile()
 {
   if(this.profileName.valid)
   {
+    this.component.presentLoading('profilepic');
     this.fd.append('user_token',this.user_token),
     this.fd.append('name',this.profileName.controls.name.value)
-    this.api.post('profile_name_image.php',this.fd).subscribe((res)=>{
+    this.api.post('profile_name_image.php',this.fd).subscribe((res:any)=>{
       console.log(res);
+    if(res.status==='Success')
+    {
+      
+      this.component.dismissLoader('profilepic');
+      this.navCtrl.navigateForward('profile2')
+      this.component.presentToast(res.message,'success')
+    }
+    else{
+      this.component.dismissLoader('profilepic');
+      this.component.presentToast(res.message,'danger');
+    }
+    },err=>{
+      if(err)
+      {
+        this.component.dismissLoader('profilepic');
+      this.component.presentToast(err.message,'danger');
+      }
     })
 
   }
 
-  // this.navCtrl.navigateForward('profile2')
 }  
 
 openCamera(sourceType) {

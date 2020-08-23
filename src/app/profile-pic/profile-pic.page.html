@@ -5,11 +5,16 @@
         <h1 class="mb-0">Profile Picture</h1>
         <div class="row mt-5 main-tp">
           <div class="col-12">
-            <div class="top-content" (click)="selectImage()"><img src="/assets/img/profile-pic.png" alt=""></div>
+            <div class="top-content" (click)="selectImage()">
+              <img *ngIf="imageUpload===''" src="/assets/img/profile-pic.png" alt="">
+              <img *ngIf="imageUpload!=''" [src]="imageUpload" alt="">
+
+            
+            </div>
             <form [formGroup]="profileName">
               <div class="form-group text-left">
                 <div class="d-flex justify-content-between align-items-center inbox">
-                  <input type="text" class="form-control" formControlName="name" placeholder="Ema Watson" id="email">
+                  <input type="text" class="form-control" formControlName="name" placeholder="Enter name" id="email">
                   <i class="fa fa-check" aria-hidden="true"></i>
                 </div>                
               </div>

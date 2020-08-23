@@ -65,15 +65,21 @@ export class HomePage implements OnInit {
                 }
                 else {
                   this.navctrl.navigateForward('profile2')
+                  this.storage.setObject('user_token',res.data.token);
+
 
                 }
               }
               else {
+                this.storage.setObject('user_token',res.data.token);
+
                 this.navctrl.navigateForward('profile-pic')
 
               }
             }
             else {
+        this.storage.setObject('user_token',res.data.token);
+
               this.navctrl.navigateRoot('aggrement')
 
             }
