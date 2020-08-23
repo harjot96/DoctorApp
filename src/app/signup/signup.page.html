@@ -43,12 +43,14 @@
               <p  *ngIf="!signupForm.controls.confirmpassword.valid && formStatus" class="ion-text-left error" >
                 Enter valid confirm password
               </p>
-              <ion-label>Select Role</ion-label>
+              <div class="form-group text-left">
+              <label>Select Role</label>
               <ion-select class="custom-options" formControlName="role">
                 <ion-select-option value="doctor">Doctor</ion-select-option>
                 <ion-select-option value="client">Client</ion-select-option>
               </ion-select>
-            </ion-item>
+              </div>
+            <!-- </ion-item> -->
               <!--p class="text-right frgt">Forget password?</p-->
               <br/>
               <div class="text-right"><button (click)="opt()" type="submit" class="form-control text-center signup-btn btn btn-default btn-lg"
