@@ -77,7 +77,7 @@ export class OTPPage implements OnInit {
       var fullotpdata=this.verificationForm.value.input1+this.verificationForm.value.input2+this.verificationForm.value.input3+this.verificationForm.value.input4;
       let fd=new FormData();
       console.log(fullotpdata)
-      fd.append('user_id',this.userId),
+      fd.append('user_id',this.registerData.user_id),
       fd.append('otp',fullotpdata),
       fd.append('device_token','aezdwt7851seew2'),
       fd.append('device_type','ios')
