@@ -8,7 +8,7 @@
         <div class="row mt-5 main-tp pt-2">
           <div class="col-12">
             <form [formGroup]="profileForm">
-              <div class="form-group text-left">
+              <div class="form-group text-left" *ngIf="userData.role == 'client'">
                 <label>Email Address</label>
                 <div class="d-flex justify-content-between align-items-center inbox">
                   <input type="email" class="form-control" formControlName="email" placeholder="Enter email address" id="loc">
@@ -21,6 +21,36 @@
                 <label>Gender</label>
                 <div class="d-flex justify-content-between align-items-center inbox">
                   <ion-select id="gender1" formControlName="gender" interface="action-sheet" placeholder ="Select gender">
+                    <ion-select-option value="female">Female</ion-select-option>
+                    <ion-select-option value="male">Male</ion-select-option>
+                  </ion-select>
+                </div>               
+              </div>
+              <p  *ngIf="!profileForm.controls.gender.valid && formStatus" class="ion-text-left error" >
+                Select valid gender
+              </p>
+              <div class="form-group text-left">
+                <label>Top Specialist</label>
+                <div class="d-flex justify-content-between align-items-center inbox">
+                  <ion-select interface="action-sheet" placeholder ="Select Specialist">
+                    <ion-select-option value="female">Female</ion-select-option>
+                    <ion-select-option value="male">Male</ion-select-option>
+                  </ion-select>
+                </div>               
+              </div>
+              <div class="form-group text-left">
+                <label>Common Symptoms</label>
+                <div class="d-flex justify-content-between align-items-center inbox">
+                  <ion-select interface="action-sheet" placeholder ="Select Symptoms">
+                    <ion-select-option value="female">Female</ion-select-option>
+                    <ion-select-option value="male">Male</ion-select-option>
+                  </ion-select>
+                </div>               
+              </div>
+              <div class="form-group text-left">
+                <label>Oragn Health</label>
+                <div class="d-flex justify-content-between align-items-center inbox">
+                  <ion-select  interface="action-sheet" placeholder ="Select Organ Health">
                     <ion-select-option value="female">Female</ion-select-option>
                     <ion-select-option value="male">Male</ion-select-option>
                   </ion-select>
@@ -76,6 +106,16 @@
               </div>
               <p  *ngIf="!profileForm.controls.pincode.valid && formStatus" class="ion-text-left error" >
                 Enter valid city
+              </p>
+              <div class="form-group text-left" *ngIf="userData?.role=='doctor'">
+                <label>Description</label>
+                <div class="d-flex justify-content-between align-items-center inbox">
+                  <ion-textarea name="description" id="" cols="30" formControlName="description" rows="3" placeholder="Description"></ion-textarea>
+                  <!-- <input type="text" class="form-control" formControlName="pincode" placeholder="Pincode" id="pin">  -->
+                </div>
+              </div>
+              <p  *ngIf="profileForm.get('description').hasError('required') && profileForm.get('description').touched"  class="ion-text-left error" >
+                Enter valid description
               </p>
               <!--p class="text-right frgt">Forget password?</p-->
               <br/>

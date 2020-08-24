@@ -1,6 +1,6 @@
 import { Component, OnInit, NgZone } from '@angular/core';
 import { NavController, LoadingController } from '@ionic/angular';
-import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { FormGroup, FormControl, Validators,AbstractControl } from '@angular/forms';
 import { ApiService } from '../api.service';
 import { ComponentServiceService } from '../component-service.service';
 import { StorageService } from '../storage.service';
@@ -20,11 +20,13 @@ export class Profile2Page implements OnInit {
   longitude: any = 0;
   geo: any;
   service = new google.maps.places.AutocompleteService();
-
+  userData:any='';
   constructor(public zone: NgZone, public loadingController: LoadingController, public navctrl: NavController, public api: ApiService, public component: ComponentServiceService, public storage: StorageService) {
     this.storage.getObject('user_token').then((data) => {
       this.user_token = data;
     })
+    this.userData = JSON.parse(localStorage.getItem('registerData'));
+   
     this.autocompleteItems = [];
 
   }
@@ -45,7 +47,6 @@ export class Profile2Page implements OnInit {
       this.longitude = results[0].geometry.location.lng();
       this.autocompleteItems = [];
       this.profileForm.controls.location.setValue(address);
-
     });
   }
   dismiss() {
@@ -119,7 +120,18 @@ export class Profile2Page implements OnInit {
       city: new FormControl('', Validators.required),
       pincode: new FormControl('', Validators.required),
       email: new FormControl('', Validators.required),
+      description: new FormControl('')
     })
+    if(this.userData.role=='doctor') {
+      this.profileForm.get('description').setValidators(Validators.required)
+    } else {
+       let control: AbstractControl = this.profileForm.controls['description'];
+      var check = control.validator(control).hasOwnProperty('required');
+      console.log(check)
+      if(check){
+        this.profileForm.get('description').clearValidators();
+      }
+     }
   }
 
 }
