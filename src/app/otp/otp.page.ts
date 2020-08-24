@@ -87,6 +87,7 @@ export class OTPPage implements OnInit {
         this.component.dismissLoader('otp');
         this.navctrl.navigateForward('aggrement');
         this.component.presentToast(res.message,'success');
+        localStorage.setItem('token', res.data.user_token)
         this.storage.setObject('user_token',res.data.user_token);
       }else{
         this.component.presentToast(res.message,'danger');

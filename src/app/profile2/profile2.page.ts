@@ -28,11 +28,8 @@ export class Profile2Page implements OnInit {
   chronicData: any = [];
   roleData: any = [];
   constructor(public zone: NgZone, public loadingController: LoadingController, public navctrl: NavController, public api: ApiService, public component: ComponentServiceService, public storage: StorageService) {
-    this.storage.getObject('user_token').then((data) => {
-      this.user_token = data;
-    })
+    this.user_token = localStorage.getItem('token');
     this.userData = JSON.parse(localStorage.getItem('registerData'));
-
     this.autocompleteItems = [];
 
   }

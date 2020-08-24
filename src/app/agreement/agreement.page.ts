@@ -13,10 +13,7 @@ export class AgreementPage implements OnInit {
 user_token:any;
 registerData:any='';
   constructor(public navctrl:NavController,public component:ComponentServiceService,public api:ApiService,public storage:StorageService) {
-    this.storage.getObject('user_token').then((data)=>{
-      this.user_token=data;
-    })
-
+        this.user_token = localStorage.getItem('token')
    }
 
   ngOnInit() {
@@ -54,7 +51,7 @@ this.navctrl.navigateRoot('home')
 
     this.component.presentLoading('agreement');
     let fd=new FormData();
-    fd.append('user_token',this.registerData.token),
+    fd.append('user_token',this.user_token),
     fd.append('agreement_status','1')
     this.api.post('agreement.php',fd).subscribe((res:any)=>{
       console.log(res);

@@ -18,10 +18,7 @@ export class ProfilePicPage implements OnInit {
   registerData:any='';
   fd = new FormData();
   constructor(public navCtrl: NavController, public api: ApiService, public actionSheetController: ActionSheetController, public camera: Camera, public component: ComponentServiceService, public storage: StorageService) {
-    this.storage.getObject('user_token').then((data) => {
-      this.user_token = data;
-      console.log(this.user_token, data)
-    })
+    this.user_token = localStorage.getItem('token');
     this.registerData = JSON.parse(localStorage.getItem('registerData'));
 
   }
@@ -32,7 +29,7 @@ export class ProfilePicPage implements OnInit {
   profile() {
     if (this.profileName.valid) {
       this.component.presentLoading('profile-pic');
-      this.fd.append('user_token',this.registerData.token),
+      this.fd.append('user_token',this.user_token),
         this.fd.append('name', this.profileName.controls.name.value)
         this.api.post('profile_name_image.php', this.fd).subscribe((res: any) => {
         console.log(res);

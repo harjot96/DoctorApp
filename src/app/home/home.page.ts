@@ -56,6 +56,8 @@ export class HomePage implements OnInit {
           console.log(res, res.data.token);
           if (res.status == 'Success') {
             localStorage.setItem('registerData', JSON.stringify(res.data));
+            localStorage.setItem('token', res.data.token)
+
              if (parseInt(res.data.otp_status) === 1) {
               this.component.presentToast(res.message, 'success')
               this.component.dismissLoader('login')
@@ -70,10 +72,10 @@ export class HomePage implements OnInit {
                 }
                 else {
                   // this.navctrl.navigateForward('profile2');
-                  this.navctrl.navigateForward('symptoms');
+                  // this.navctrl.navigateForward('symptoms');
 
 
-                  // this.navctrl.navigateForward('profile-pic');
+                  this.navctrl.navigateForward('profile-pic');
                 }
               } else {
                 this.navctrl.navigateForward('aggrement');
