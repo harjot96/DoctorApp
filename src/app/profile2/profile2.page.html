@@ -17,10 +17,10 @@
               <p  *ngIf="!profileForm.controls.email.valid && formStatus" class="ion-text-left error" >
                 Enter email
               </p>
-              <div class="form-group text-left">
+              <div class="form-group text-left" >
                 <label>Gender</label>
                 <div class="d-flex justify-content-between align-items-center inbox">
-                  <ion-select id="gender1" formControlName="gender" interface="action-sheet" placeholder ="Select gender">
+                  <ion-select id="gender1" class="ion-no-padding" formControlName="gender" interface="action-sheet" placeholder ="Select gender">
                     <ion-select-option value="female">Female</ion-select-option>
                     <ion-select-option value="male">Male</ion-select-option>
                   </ion-select>
@@ -29,18 +29,19 @@
               <p  *ngIf="!profileForm.controls.gender.valid && formStatus" class="ion-text-left error" >
                 Select valid gender
               </p>
-              <div class="form-group text-left">
+              <div class="form-group text-left" style="border: none;">
                 <label>Location</label>
-                <div class="d-flex justify-content-between align-items-center inbox">
+                <div class="d-flex justify-content-between align-items-center inbox" >
                   <ion-searchbar
                   lines="none"
-                  class="form-control"
+                  style="border: none !important;"
+                  class="form-control ion-no-padding"
                   placeholder="Location"
                   formControlName="location"
                   [showCancelButton]="false"
                   (ionInput)="updateSearch()"
                   (ionCancel)="dismiss()"
-                >
+debounce="500"                >
                 </ion-searchbar>
                   <!-- <input type="text" class="form-control" formControlName="location" placeholder="Enter location" id="loc"> -->
                 </div>

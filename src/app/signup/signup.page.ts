@@ -15,16 +15,15 @@ export class SignupPage implements OnInit {
   formStatus:boolean=false;
   constructor(public navctrl:NavController,public api:ApiService,public component:ComponentServiceService,public storage:StorageService) { }
 
-  ngOnInit() {
-    this.signupForms();
-  }
-  login(){
+ngOnInit() {
+this.signupForms();
+}
+login(){
 this.navctrl.navigateRoot('home')
-  }
-
-  signupForms():void{
-    this.signupForm=new FormGroup({
-      mobile:new FormControl('',Validators.required),
+}
+signupForms():void{
+this.signupForm=new FormGroup({
+mobile:new FormControl('',Validators.required),
       password:new FormControl('',Validators.required),
       role:new FormControl('',Validators.required),
       confirmpassword:new FormControl('',Validators.required)

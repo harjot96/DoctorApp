@@ -70,7 +70,7 @@ export class ProfilePicPage implements OnInit {
 
 
     }, (err) => {
-      // Handle error
+      
       this.component.presentAlert(JSON.stringify(err))
     });
 

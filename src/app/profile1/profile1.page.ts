@@ -16,9 +16,9 @@ export class Profile1Page implements OnInit {
   profileForm:FormGroup;
 
   constructor(public navctrl:NavController,public api:ApiService,public component:ComponentServiceService,public storage:StorageService) { 
-    let userid=localStorage.getItem('user_id');
+    let userid=JSON.parse(localStorage.getItem('userData')) 
       let fd=new FormData();
-      fd.append('user_id',userid);
+      fd.append('user_id',userid.user_id);
   this.api.post('view_profile.php',fd).subscribe((res:any)=>{
   console.log(res);
   this.userData=res.data;

@@ -6,7 +6,7 @@
       <div class="row main-tp pt-2">
         <div class="col-md-12 col-12 top-content d-flex justify-content-right align-items-center">
           <div *ngIf="userData?.profile_image ===''"><img src="/assets/img/profile-pic.png" alt=""></div>
-          <div *ngIf="userData?.profile_image!=''"><img [src]="userData?.profile_image" alt=""></div>
+          <div *ngIf="userData?.profile_image!=''"><img [src]="userData?.profile_image" onerror="this.src='/assets/img/profile-pic.png';" alt=""></div>
 
           <div class="boxx">           
               <h2>{{userData?.name}}</h2>
