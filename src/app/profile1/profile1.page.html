@@ -4,13 +4,13 @@
     <div class="inner-sign">
       <div class="container">
       <div class="row main-tp pt-2">
-        <div class="col-md-12 col-12 top-content d-flex justify-content-right align-items-center">
+        <div class="col-md-12 col-12 top-content d-flex justify-content-right align-items-center" (click)="selectImage()">
           <div *ngIf="userData?.profile_image ===''"><img src="/assets/img/profile-pic.png" alt=""></div>
-          <div *ngIf="userData?.profile_image!=''"><img [src]="userData?.profile_image" onerror="this.src='/assets/img/profile-pic.png';" alt=""></div>
+          <div *ngIf="userData?.profile_image!=''"><img [src]="image" onerror="this.src='/assets/img/profile-pic.png';" alt=""></div>
 
           <div class="boxx">           
-              <h2>{{userData?.name}}</h2>
-              <span>{{userData?.gender}}</span>
+              <h2>{{user?.name}}</h2>
+              <span>{{user?.gender}}</span>
               <div style="    position: absolute;
               z-index: 999;
               width: 100%;
@@ -33,11 +33,37 @@
                   <ion-input type="text" class="form-control" [readonly]="readonly" formControlName="mobile" placeholder="+91 9876543210" id="email"></ion-input>
                 </div>    
               </div>            
-               <div class="form-group text-left">
+              <div class="form-group text-left" style="border: none;">
                 <label>Location</label>
-                <div class="d-flex justify-content-between align-items-center inbox">
-                  <ion-input type="text" class="form-control" [readonly]="readonly" formControlName="location" placeholder="#369, Garden Road, New York" id="loc"></ion-input>
+                <div class="d-flex justify-content-between align-items-center inbox" >
+                  <ion-searchbar
+                  mode="ios"
+                  lines="none"
+                  style="border: none !important;"
+                  class="form-control ion-no-padding"
+                  placeholder="Location"
+                  formControlName="location"
+                  [showCancelButton]="false"
+                  (ionInput)="updateSearch()"
+                  (ionCancel)="dismiss()"
+debounce="500"                >
+                </ion-searchbar>
+                  <!-- <input type="text" class="form-control" formControlName="location" placeholder="Enter location" id="loc"> -->
                 </div>
+                
+              </div>
+              <p  *ngIf="!profileForm.controls.location.valid && formStatus" class="ion-text-left error" >
+                Enter valid location
+              </p>
+              <div *ngIf="autocompleteItems?.length>0" class="search-content">
+                <ion-label class="label-select">Select Address</ion-label>
+                <ion-item
+                  *ngFor="let item of autocompleteItems"
+                  tappable
+                  (click)="chooseItem(item)"
+                >
+                  {{ item }}
+                </ion-item>
               </div>
               <div class="form-group text-left">
                 <label>City</label>
