@@ -11,6 +11,46 @@ declare var google:any;
 export class TwoTabsPage implements OnInit {
   @ViewChild('map', { static: false }) mapElement: ElementRef;
   markers: any = [];
+ locations = [
+  {
+    "name": "National Museum",
+    "state" : "Delhi",
+    "latitude": 28.6117993,
+    "longitude": 77.2194934
+  },
+  {
+    "name": "National Science Centre,",
+    "state": "Delhi",
+    "latitude": 28.6132098,
+    "longitude": 77.245437
+  },
+  {
+    "name": "The Sardar Patel Museum",
+    "state": "Gujrat",
+    "latitude": 21.1699005,
+    "longitude": 72.7955734
+  },
+  {
+    "name": "Library of Tibetan Works and Archives",
+    "state": "Himachal",
+    "latitude": 32.2263696,
+    "longitude": 76.325326
+
+  },
+  {
+    "name": "Chhatrapati Shivaji Maharaj Vastu Sangrahalaya",
+    "state": "Maharashtra",
+    "latitude": 18.926873,
+    "longitude": 72.8326132
+  },
+  {
+    "name": "Namgyal Institute of Tibetology",
+    "state": "Sikkim",
+    "latitude": 27.315948,
+    "longitude": 88.6047829
+
+  }
+  ];
   map: any;
   segment: string='sunny'
 
@@ -46,15 +86,48 @@ this.navctrl.navigateForward('start/tabs/time-slot')
         center: latLng,
         zoom: 5,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
+        disableDefaultUI:false,
+        zoomControl: false,
+        mapTypeControl: false,
+        scaleControl: false,
+        streetViewControl: false,
+        rotateControl: false,
+        fullscreenControl: false
       }
       this.map = new google.maps.Map(this.mapElement.nativeElement, mapOptions);
-      console.log(this.map)
-      var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(40.7128, 74.0060),
-        map: this.map,
-      });
-    console.log(marker,"marker")
+    // this.addMarker();
+    for(let i=0; i<=this.locations.length;i++)
+    {
+      this.addMarker(this.locations[i])
+    }
     
+  }
+  addMarker(data){
+let image="https://img.icons8.com/ultraviolet/40/000000/marker.png";
+   const position = new google.maps.LatLng(data.latitude, data.longitude);
+    let marker = new google.maps.Marker({
+      map: this.map,
+      animation: google.maps.Animation.DROP,
+      position:position,
+      icon: image
+    
+    });
+  
+    let content = "sdds"          
+  
+    this.addInfoWindow(marker, content);
+  
+  }
+  addInfoWindow(marker, content){
+
+    let infoWindow = new google.maps.InfoWindow({
+      content: content
+    });
+
+    google.maps.event.addListener(marker, 'click', () => {
+      infoWindow.open(this.map, marker);
+    });
+
   }
 
   segmentChanged(ev)

@@ -1,5 +1,5 @@
 <ion-content>
-  <ion-segment style="background: transparent;"  [(ngModel)]="segment" value="sunny" mode="ios"  (ionChange)="segmentChanged($event)">
+  <ion-segment style="background: transparent; position: absolute; z-index: 99;"  [(ngModel)]="segment" value="sunny" mode="ios"  (ionChange)="segmentChanged($event)">
     <ion-segment-button value="sunny">
       <ion-icon name="people-outline"></ion-icon>
       <ion-label>Doctor List</ion-label>
@@ -17,7 +17,7 @@
 <div *ngSwitchCase="'sunny'">
  
 
-  <div class="row mt-3"> 
+  <div class="row mt-3" style="    margin-top: 90px !important;"> 
     <div class="container">
       <div class="col-md-12 col-12">
         <form>
@@ -155,7 +155,7 @@
 </div> 
 
 
-<div *ngSwitchCase="'rainy'" style="height: 100%;">
+<div *ngSwitchCase="'rainy'" style="height: 100vh;">
   <div #map id="map"></div>
 
 </div>
