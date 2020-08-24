@@ -14,19 +14,17 @@
               </div>
            </div>
       
-           <div class="row align-items-center issues-outer">
+           <div class="row align-items-center issues-outer" *ngIf="symptomData && symptomData?.length">
               <div class="col-md-12 col-12">
                  <h3 class="mb-1 mt-0">Common Symptoms</h3>
               </div>
-              <div class="col-md-3 col-3 left-sd px-1 text-center" (click)="view()" >
+              <div class="col-md-3 col-3 left-sd px-1 text-center" *ngFor="let sym of symptomData" (click)="view()" >
                  <div class="box-cir">
                     <img src="assets/img/fever.png" alt="">
-                    <p class="mb-0 ">Coronavirus
-                      Assessment</p>
+                    <p class="mb-0 ">{{sym.name}}</p>
                  </div>
-
               </div>
-              <div class="col-md-3 col-3 right-sd px-1 text-center" (click)="view()">
+              <!-- <div class="col-md-3 col-3 right-sd px-1 text-center" (click)="view()">
                  <div class="box-cir">
                     <img src="assets/img/fever.png" alt="">
                     <p class="mb-0 ">Fever</p>
@@ -67,26 +65,25 @@
                     <p class="mb-0 ">Back Pain</p>
                  </div>
 
-              </div>
+              </div> -->
               <div class="col-md-3 col-3 right-sd px-1 text-center">
                  <div class="box-cir">
-                    <!-- <img src="assets/img/fever.png" alt=""> -->
                     <p class="mb-0 " style="color: #09abf4; font-size:13px;" (click)="viewmore()">View More</p>
                  </div>
               </div>
 
            </div>
-           <div class="row align-items-center issues-outer">
+           <div class="row align-items-center issues-outer" *ngIf="specialistData && specialistData?.length">
               <div class="col-md-12 col-12">
                  <h3 class="mb-1 mt-0">Top Specialist</h3>
               </div>
-              <div class="col-md-4 col-4 left-sd text-center px-0">
+              <div class="col-md-4 col-4 left-sd text-center px-0" *ngFor="let specialist of specialistData">
                  <div class="box-rect">
                     <img src="assets/img/depression1.png" alt="">
-                    <p class="mb-0 ">Depression</p>
+                    <p class="mb-0 ">{{specialist.name}}</p>
                  </div>
               </div>
-              <div class="col-md-4 col-4 right-sd text-center px-0">
+              <!-- <div class="col-md-4 col-4 right-sd text-center px-0">
                  <div class="box-rect">
                     <img src="assets/img/headache.png" alt="">
                     <p class="mb-0 ">Headache</p>
@@ -133,21 +130,20 @@
                  <img src="assets/img/pregnancy.png" alt="">
                  <p class="mb-0 ">Pregnancy</p>
               </div>
-           </div>
+           </div> -->
 
            </div>
-           <div class="row align-items-center issues-outer">
+           <div class="row align-items-center issues-outer" *ngIf="organData && organData?.length">
             <div class="col-md-12 col-12">
                <h3 class="mb-1 mt-0">Organ Health</h3>
             </div>
-            <div class="col-md-4 col-4 left-sd text-center px-0">
+            <div class="col-md-4 col-4 left-sd text-center px-0" *ngFor="let org of organData">
                <div class="box-rect">
                   <img src="assets/img/ear-nose.png" alt="">
-                  <p class="mb-0 ">Ear Nose 
-                    Threat</p>
+                  <p class="mb-0 ">{{org.name}}</p>
                </div>
             </div>
-            <div class="col-md-4 col-4 right-sd text-center px-0">
+            <!-- <div class="col-md-4 col-4 right-sd text-center px-0">
                <div class="box-rect">
                   <img src="assets/img/eye.png" alt="">
                   <p class="mb-0 ">Eye</p>
@@ -177,20 +173,19 @@
                  <img src="assets/img/mental-illness.png" alt="">
                  <p class="mb-0 ">Kidney & Urinary Tract</p>
               </div>
-           </div>
+           </div> -->
          </div>
-         <div class="row align-items-center issues-outer">
+         <div class="row align-items-center issues-outer" *ngIf="chronicData && chronicData?.length">
           <div class="col-md-12 col-12">
              <h3 class="mb-1">Chronic & Long Term Care</h3>
           </div>
-          <div class="col-md-4 col-4 left-sd text-center px-0">
+          <div class="col-md-4 col-4 left-sd text-center px-0" *ngFor="let chronicdata of chronicData">
              <div class="box-rect">
                 <img src="assets/img/daibete.png" alt="">
-                <p class="mb-0 ">Ear Nose 
-                  Threat</p>
+                <p class="mb-0 ">{{chronicdata.name}}</p>
              </div>
           </div>
-          <div class="col-md-4 col-4 right-sd text-center px-0">
+          <!-- <div class="col-md-4 col-4 right-sd text-center px-0">
              <div class="box-rect">
                 <img src="assets/img/mental-ilnnes.png" alt="">
                 <p class="mb-0 ">Eye</p>
@@ -220,7 +215,7 @@
                <img src="assets/img/mental-illness.png" alt="">
                <p class="mb-0 ">Kidney & Urinary Tract</p>
             </div>
-         </div>
+         </div> -->
        </div>
         </div>
      </div>

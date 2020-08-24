@@ -14,71 +14,98 @@
                   <input type="email" class="form-control" formControlName="email" placeholder="Enter email address" id="loc">
                 </div>
               </div>
-              <p  *ngIf="!profileForm.controls.email.valid && formStatus" class="ion-text-left error" >
-                Enter email
-              </p>
-              <div class="form-group text-left">
+              <p  *ngIf="profileForm.get('email').hasError('required') && profileForm.get('email').touched"  class="ion-text-left error" >
+                Enter valid email address
+               </p>
+              <div class="form-group text-left" >
                 <label>Gender</label>
                 <div class="d-flex justify-content-between align-items-center inbox">
-                  <ion-select id="gender1" formControlName="gender" interface="action-sheet" placeholder ="Select gender">
+                  <ion-select id="gender1" class="ion-no-padding" formControlName="gender" interface="action-sheet" placeholder ="Select gender">
                     <ion-select-option value="female">Female</ion-select-option>
                     <ion-select-option value="male">Male</ion-select-option>
                   </ion-select>
                 </div>               
               </div>
-              <p  *ngIf="!profileForm.controls.gender.valid && formStatus" class="ion-text-left error" >
+              <p  *ngIf="profileForm.get('gender').hasError('required') && profileForm.get('gender').touched"  class="ion-text-left error" >
                 Select valid gender
+               </p>
+              <div class="form-group text-left" *ngIf="userData.role == 'doctor'">
+                <label>Role</label>
+                <div class="d-flex justify-content-between align-items-center inbox">
+                  <ion-select  interface="action-sheet" placeholder ="Select" multiple="true" formControlName="role">
+                    <ion-select-option  *ngFor="let roles of roleData" value="{{roles.subcat_id}}">{{roles.name}}</ion-select-option>
+                   </ion-select>
+                </div>               
+              </div>
+              <p  *ngIf="profileForm.get('role').hasError('required') && profileForm.get('role').touched"  class="ion-text-left error" >
+               Select Role
               </p>
-              <div class="form-group text-left">
+              <div class="form-group text-left" *ngIf="userData.role == 'doctor'">
                 <label>Top Specialist</label>
                 <div class="d-flex justify-content-between align-items-center inbox">
-                  <ion-select interface="action-sheet" placeholder ="Select Specialist">
-                    <ion-select-option value="female">Female</ion-select-option>
-                    <ion-select-option value="male">Male</ion-select-option>
+                  <ion-select interface="action-sheet" placeholder ="Select Specialist" multiple="true"  formControlName="specialist">
+                    <!-- <ion-select-option  value="female">Female</ion-select-option> -->
+                    <ion-select-option *ngFor="let specialist of specialistData" value="{{specialist.subcat_id}}">{{specialist.name}}</ion-select-option>
                   </ion-select>
                 </div>               
               </div>
-              <div class="form-group text-left">
+              <p  *ngIf="profileForm.get('specialist').hasError('required') && profileForm.get('specialist').touched"  class="ion-text-left error" >
+                Select Specialist
+               </p>
+              <div class="form-group text-left" *ngIf="userData.role == 'doctor'">
                 <label>Common Symptoms</label>
                 <div class="d-flex justify-content-between align-items-center inbox">
-                  <ion-select interface="action-sheet" placeholder ="Select Symptoms">
-                    <ion-select-option value="female">Female</ion-select-option>
-                    <ion-select-option value="male">Male</ion-select-option>
+                  <ion-select interface="action-sheet" formControlName="symptoms" multiple="true" form placeholder ="Select Symptoms">
+                    <ion-select-option *ngFor="let sym of symptomData" value="{{sym.subcat_id}}">{{sym.name}}</ion-select-option>
                   </ion-select>
                 </div>               
               </div>
-              <div class="form-group text-left">
+              <p  *ngIf="profileForm.get('symptoms').hasError('required') && profileForm.get('symptoms').touched"  class="ion-text-left error" >
+                Select Symptoms
+               </p>
+              <div class="form-group text-left" *ngIf="userData.role == 'doctor'">
                 <label>Oragn Health</label>
                 <div class="d-flex justify-content-between align-items-center inbox">
-                  <ion-select  interface="action-sheet" placeholder ="Select Organ Health">
-                    <ion-select-option value="female">Female</ion-select-option>
-                    <ion-select-option value="male">Male</ion-select-option>
-                  </ion-select>
+                  <ion-select  interface="action-sheet" placeholder ="Select Organ Health" multiple="true" formControlName="organ">
+                    <ion-select-option  *ngFor="let organ of organData" value="{{organ.subcat_id}}">{{organ.name}}</ion-select-option>
+                   </ion-select>
                 </div>               
               </div>
-              <p  *ngIf="!profileForm.controls.gender.valid && formStatus" class="ion-text-left error" >
-                Select valid gender
-              </p>
-              <div class="form-group text-left">
-                <label>Location</label>
+              <p  *ngIf="profileForm.get('organ').hasError('required') && profileForm.get('organ').touched"  class="ion-text-left error" >
+                Select Organ Health
+               </p>
+              <div class="form-group text-left" *ngIf="userData.role == 'doctor'">
+                <label>Chronic & Long term care</label>
                 <div class="d-flex justify-content-between align-items-center inbox">
+                  <ion-select  interface="action-sheet" placeholder ="Select" multiple="true" formControlName="chronic">
+                    <ion-select-option  *ngFor="let chronic of chronicData" value="{{chronic.subcat_id}}">{{chronic.name}}</ion-select-option>
+                   </ion-select>
+                </div>               
+              </div>
+              <p  *ngIf="profileForm.get('chronic').hasError('required') && profileForm.get('chronic').touched"  class="ion-text-left error" >
+                Select Chronic & long term care
+               </p>
+              <div class="form-group text-left"  style="border: none;">
+                <label>Location</label> 
+                <div class="d-flex justify-content-between align-items-center inbox" >
                   <ion-searchbar
                   lines="none"
-                  class="form-control"
+                  style="border: none !important;"
+                  class="form-control ion-no-padding"
                   placeholder="Location"
                   formControlName="location"
                   [showCancelButton]="false"
                   (ionInput)="updateSearch()"
                   (ionCancel)="dismiss()"
-                >
+                  debounce="500"                >
                 </ion-searchbar>
                   <!-- <input type="text" class="form-control" formControlName="location" placeholder="Enter location" id="loc"> -->
                 </div>
                 
               </div>
-              <p  *ngIf="!profileForm.controls.location.valid && formStatus" class="ion-text-left error" >
-                Enter valid location
-              </p>
+              <p  *ngIf="profileForm.get('location').hasError('required') && profileForm.get('location').touched"  class="ion-text-left error" >
+               Enter valid location
+               </p>
               <div *ngIf="autocompleteItems.length>0" class="search-content">
                 <ion-label class="label-select">Select Address</ion-label>
                 <ion-item
@@ -95,18 +122,18 @@
                   <input type="text" class="form-control" formControlName="city" placeholder="City" id="city">                 
                 </div>
               </div>
-              <p  *ngIf="!profileForm.controls.city.valid && formStatus" class="ion-text-left error" >
+              <p  *ngIf="profileForm.get('city').hasError('required') && profileForm.get('city').touched"  class="ion-text-left error" >
                 Enter valid city
-              </p>
+                </p>
               <div class="form-group text-left">
                 <label>Pin Code</label>
                 <div class="d-flex justify-content-between align-items-center inbox">
                   <input type="text" class="form-control" formControlName="pincode" placeholder="Pincode" id="pin"> 
                 </div>
               </div>
-              <p  *ngIf="!profileForm.controls.pincode.valid && formStatus" class="ion-text-left error" >
-                Enter valid city
-              </p>
+              <p  *ngIf="profileForm.get('pincode').hasError('required') && profileForm.get('pincode').touched"  class="ion-text-left error" >
+                Enter valid pincode
+                </p>
               <div class="form-group text-left" *ngIf="userData?.role=='doctor'">
                 <label>Description</label>
                 <div class="d-flex justify-content-between align-items-center inbox">

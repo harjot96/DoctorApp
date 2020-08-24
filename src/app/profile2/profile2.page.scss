@@ -2,6 +2,13 @@
 ion-select{
     width: 100%;
 }
+ion-searchbar{
+    --border-radius: 0px;
+    --background: #fff;
+}
+.searchbar-search-icon{
+    display: none !important;
+}
     .signin-outer {
         display: flex;
         flex-direction: column;

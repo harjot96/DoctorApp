@@ -69,7 +69,10 @@ export class HomePage implements OnInit {
                   }
                 }
                 else {
-                  this.navctrl.navigateForward('profile2');
+                  // this.navctrl.navigateForward('profile2');
+                  this.navctrl.navigateForward('symptoms');
+
+
                   // this.navctrl.navigateForward('profile-pic');
                 }
               } else {
