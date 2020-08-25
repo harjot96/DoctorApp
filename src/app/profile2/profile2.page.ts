@@ -31,7 +31,6 @@ export class Profile2Page implements OnInit {
     this.user_token = localStorage.getItem('token');
     this.userData = JSON.parse(localStorage.getItem('registerData'));
     this.autocompleteItems = [];
-
   }
 
   ionViewDidEnter() {
@@ -122,7 +121,12 @@ export class Profile2Page implements OnInit {
           this.component.dismissLoader('profile')
           this.component.presentToast(res.message, 'success');
           console.log(res);
-          this.navctrl.navigateRoot('start');
+          // this.navctrl.navigateRoot('start');
+          if(this.userData?.role == 'client'){
+            this.navctrl.navigateRoot('start');
+          }else{
+            this.navctrl.navigateRoot('start/tabs/tab2');
+          }
         }
         else {
           this.component.dismissLoader('profile');
