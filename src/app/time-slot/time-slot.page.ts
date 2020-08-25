@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NavController } from '@ionic/angular';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-time-slot',
@@ -7,8 +8,15 @@ import { NavController } from '@ionic/angular';
   styleUrls: ['./time-slot.page.scss'],
 })
 export class TimeSlotPage implements OnInit {
-
-  constructor(public navctrl:NavController) { }
+  doctorId:any='';
+  constructor(public navctrl:NavController, public route:ActivatedRoute) {
+    this.route.queryParams.subscribe(params => {
+      if (params && params.data) {
+        this.doctorId = JSON.parse(params.data);
+        console.log(this.doctorId)
+       }
+      })
+   }
 
   ngOnInit() {
   }
