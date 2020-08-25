@@ -3,7 +3,7 @@ import { NavController } from '@ionic/angular';
 import { HeremapService } from '../heremap.service';
 import { ApiService } from '../api.service';
 import { ComponentServiceService } from '../component-service.service';
-
+declare var $:any;
 declare var google: any;
 @Component({
   selector: 'app-two-tabs',
@@ -69,6 +69,11 @@ export class TwoTabsPage implements OnInit {
       this.getDoctors();
     }
     this.getSymptoms();
+    $('select').on('change', function (e) {
+      var optionSelected = $("option:selected", this);
+      var valueSelected = this.value;
+      console.log(valueSelected)
+  });
   }
 
   ngOnInit() {

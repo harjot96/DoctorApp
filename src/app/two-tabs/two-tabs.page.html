@@ -24,8 +24,8 @@
           <div class="form-group text-left">
              <label>Choose Category</label>
              <div class="d-flex justify-content-between align-items-center inbox">
-                <select id="name" [(ngModel)]="selectedSymptom" [ngModelOptions]="{standalone: true}" ng-change="selected(sym)">
-                   <option *ngFor ="let sym of symptomData" value = "{{sym.subcat_id}}">{{sym.name}}</option>
+                <select id="name" [(ngModel)]="selectedSymptom" [ngModelOptions]="{standalone: true}" >
+                   <option *ngFor ="let sym of symptomData" value="{{sym.subcat_id}}">{{sym.name}}</option>
                  </select>
              </div>
           </div>
