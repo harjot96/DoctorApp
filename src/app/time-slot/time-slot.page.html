@@ -11,7 +11,12 @@
   </div>
   </div>
   <div class="row slots">
-    <div class="col-4 inr">
+    <div class="col-4 inr"  *ngFor="let data of slotData; let i=index"  (click)="selectSlot(data, i)">
+      <div class="box {{data?.class && (data?.class!=='') ? data?.class : ''}}">
+          <h2>{{data?.value}}</h2>
+      </div>
+    </div>
+    <!-- <div class="col-4 inr">
       <div class="box">
           <h2>10:30 am</h2>
           <p>12th May</p>
@@ -46,9 +51,10 @@
         <h2>05:30 pm</h2>
         <p>29th August</p>
     </div>
-    </div>
+    </div> -->
 </div>
-<form>
+<form [formGroup]="timeslotForm">
+
 <!---------------->
 <div class="row">
   <div class="col-12">
@@ -59,16 +65,18 @@
       pickerFormat="YYYY-MM-DD"
       formControlName="appointment_date"
       min="{{today}}"
-     placeholder="Select Date"
+     placeholder="(YYYY-MM-DD)"
     ></ion-datetime>
+    <ion-textarea formControlName="note" placeholder="Write description"></ion-textarea>
       <!-- <input type="date" name="bday" max="3000-12-31" 
              min="1000-01-01" class="form-control"> -->
      </div>
+
   </div>
   </div>
 
   <div style="text-align: center; margin-top: 20px;">
-    <ion-button (click)="bookslot()" >Book Slot</ion-button>
+    <ion-button (click)="bookslot()" [disabled]="!timeslotForm.valid" >Book Slot</ion-button>
   </div>
 </form>
 </ion-content>

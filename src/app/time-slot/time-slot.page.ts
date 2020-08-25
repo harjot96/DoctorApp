@@ -3,6 +3,8 @@ import { NavController } from '@ionic/angular';
 import { ActivatedRoute, Router } from '@angular/router';
 import * as moment from 'moment';
 import { FormGroup, FormControl, Validators, AbstractControl } from '@angular/forms';
+import { ComponentServiceService } from '../component-service.service';
+import { ApiService } from '../api.service';
 
 @Component({
   selector: 'app-time-slot',
@@ -11,7 +13,7 @@ import { FormGroup, FormControl, Validators, AbstractControl } from '@angular/fo
 })
 export class TimeSlotPage implements OnInit {
   doctorId:any='';
-  slotForm: FormGroup
+  timeslotForm: FormGroup
   slideOpts = {
     initialSlide: 0,
     slidesPerView:2
@@ -50,15 +52,20 @@ export class TimeSlotPage implements OnInit {
     // "09:30 PM",
   ]
   today = moment(new Date()).format('YYYY-MM-DD');
-  constructor(public navctrl:NavController, public route:ActivatedRoute) {
+  userData:any='';
+  constructor(public api:ApiService,public navctrl:NavController, public route:ActivatedRoute, public component: ComponentServiceService) {
     console.log(this.slotData, "soltss")
-    
+    this.userData =JSON.parse(localStorage.getItem('userData'));
     this.route.queryParams.subscribe(params => {
       if (params && params.data) {
         this.doctorId = JSON.parse(params.data);
         console.log(this.doctorId)
        }
       })
+      this.timeslotForm=new FormGroup({
+              appointment_date:new FormControl('',Validators.required),
+              note:new FormControl('',Validators.required),
+            })
    }
 
   ngOnInit() {
@@ -83,6 +90,36 @@ export class TimeSlotPage implements OnInit {
 console.log(this.tiemArray)
   }
   bookslot(){
-    this.navctrl.navigateForward('start/tabs/payment')
+    if(!this.timeslotForm.valid){
+      this.timeslotForm.markAllAsTouched();
+    }else{
+      if(this.tiemArray == ''){
+        this.component.presentToast('Please select tiem slot.','danger')
+      }else{
+        var fd = new FormData()
+        // getSpecialist() {
+          // this.component.presentLoading('symptoms');
+          fd.append('user_token', this.userData.token)
+          fd.append('doctor_id', this.doctorId)
+          fd.append('from', this.tiemArray.from)
+          fd.append('to', this.tiemArray.to)
+          fd.append('message', this.timeslotForm.value.note)
+          fd.append('date', this.timeslotForm.value.appointment_date)
+          this.api.post('book_appointment.php', fd).subscribe((res: any) => {
+            console.log(res);
+            // this.component.dismissLoader('symptoms');
+            if (res.status === 'Success') {
+              this.component.presentToast(res['message'],'success')
+              this.navctrl.back();
+              } else {
+              this.component.presentToast(res['message'],'danger')
+
+             }
+          })
+        // }
+        // this.navctrl.navigateForward('start/tabs/payment')
+
+      }
+    }
   }
 }

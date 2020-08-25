@@ -5,24 +5,29 @@
         <div class="row">
           <div class="col-12 px-0 main-content">
             <h1 class="mb-4">Appointment Lists</h1>
-            <div class="box">
-              <div class="img-out"><img src="/assets/img/list1.png" alt=""></div>
+            <div *ngIf="data.length>0">
+            <div class="box" *ngFor="let newdata of data">
+              <div class="img-out"><img src="/assets/img/list1.png" alt="" *ngIf="newdata.profile_image == null || newdata.profile_image ==''">
+                <img src="{{newdata.profile_image}}" alt="" *ngIf="newdata.profile_image != null && newdata.profile_image !=''"></div>
               <div>
                 <ul class="mail-list">
-                  <li>Name : <span>Lara Datson</span></li>               
-                  <li>Gender : <span>Female</span></li>
-                  <li>Role : <span>Radiology</span></li>
-                  <li>Appointment : <span>26th May, Wed
-                      10:00 am</span></li>
-                  <li>Status : <span>Pending</span></li>
+                  <li>Name : <span>{{newdata.name}}</span></li>               
+                  <li>Gender : <span>{{newdata.gender}}</span></li>
+                  <li>Role : <span>{{newdata.doctor_role}}</span></li>
+                  <li>Appointment : <span>{{newdata.appointment}}
+                     </span></li>
+                  <li>Status : <span *ngIf="newdata.status =='0'">Pending</span></li>
                 </ul>
               </div>
               <div class="status">
                 <a href="#" class="red">Cancel <img src="/assets/img/decline-cross.png" alt=""></a>
               </div>
             </div>
-
-            <div class="box">
+          </div>
+          <div *ngIf="data.length==0 && noData"> 
+            <p> No Appointment Found.</p>
+          </div>
+            <!-- <div class="box">
               <div class="img-out"><img src="/assets/img/list2.png" alt=""></div>
               <div>
                 <ul class="mail-list">
@@ -71,7 +76,7 @@
               <div class="status">
                 <a href="#" class="red">Cancel <img src="/assets/img/decline-cross.png" alt=""></a>
               </div>
-            </div>
+            </div> -->
             
           </div>
         </div>
