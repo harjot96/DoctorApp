@@ -11,6 +11,7 @@ export class ApiService {
   subcaategoryData:any='';
   Latitude:any=0;
   longitude:any=0;
+  cat_id:any='';
   constructor(public http:HttpClient) 
   
   {
