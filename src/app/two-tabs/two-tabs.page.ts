@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { NavController } from '@ionic/angular';
 import { HeremapService } from '../heremap.service';
+import { ApiService } from '../api.service';
 
 declare var google:any;
 @Component({
@@ -54,7 +55,7 @@ export class TwoTabsPage implements OnInit {
   map: any;
   segment: string='sunny'
 
-  constructor(public navctrl:NavController, public hereMap: HeremapService) { }
+  constructor(public navctrl:NavController, public hereMap: HeremapService,public api:ApiService) { }
 
   ngOnInit() {
     setTimeout(()=>{
@@ -81,10 +82,10 @@ this.navctrl.navigateForward('start/tabs/time-slot')
   }
 
   loadMap() {   
-      let latLng = new google.maps.LatLng(40.7128,74.0060);
+      let latLng = new google.maps.LatLng(this.api.Latitude,this.api.longitude);
       let mapOptions = {
         center: latLng,
-        zoom: 5,
+        zoom: 10,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         disableDefaultUI:false,
         zoomControl: false,

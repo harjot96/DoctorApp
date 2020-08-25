@@ -51,6 +51,8 @@ export class SymptomsPage implements OnInit {
     this.geolocation.getCurrentPosition().then((resp) => {
       console.log(resp.coords.latitude);
       console.log(resp.coords.longitude);
+      this.api.Latitude=resp.coords.latitude;
+      this.api.longitude=resp.coords.longitude;
       this.httpClient.get('https://nominatim.openstreetmap.org/search?format=geojson&q=' + resp.coords.latitude + ',' + resp.coords.longitude).subscribe(data => {
         console.log('newdata', data);
         if (data['features'].length > 0) {
