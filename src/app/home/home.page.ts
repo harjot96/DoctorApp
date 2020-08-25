@@ -4,7 +4,8 @@ import { FormGroup, Validators, FormControl } from '@angular/forms';
 import { ApiService } from '../api.service';
 import { ComponentServiceService } from '../component-service.service';
 import { StorageService } from '../storage.service';
-
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { Geolocation } from '@ionic-native/geolocation/ngx';
 @Component({
   selector: 'app-home',
   templateUrl: './home.page.html',
@@ -13,7 +14,8 @@ import { StorageService } from '../storage.service';
 export class HomePage implements OnInit {
   loginForm: FormGroup;
   formStatus: boolean = false;
-  constructor(public navctrl: NavController, public api: ApiService, public component: ComponentServiceService, public storage: StorageService) { }
+  currentLocation:any;
+  constructor(public geolocation:Geolocation,public httpClient:HttpClient,public navctrl: NavController, public api: ApiService, public component: ComponentServiceService, public storage: StorageService) { }
 
   ngOnInit() {
     this.loginForms();
@@ -101,4 +103,5 @@ export class HomePage implements OnInit {
 
     }
   }
+
 }

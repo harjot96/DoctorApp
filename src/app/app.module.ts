@@ -16,7 +16,7 @@ import { NativeStorage } from '@ionic-native/native-storage/ngx';
 import { StorageService } from './storage.service';
 import { IonicStorageModule } from '@ionic/storage';
 import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
-
+import { Geolocation } from '@ionic-native/geolocation/ngx';
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
@@ -29,8 +29,9 @@ import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
     ComponentServiceService,
     HeremapService,
     ApiService,
+    Geolocation,
     Camera,
-StorageService,    
+    StorageService,    
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]

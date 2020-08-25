@@ -3,10 +3,10 @@
      <div class="inner-sign">
         <div class="container">
            <div class="row blue-bg mb-3">
-              <div class="col-md-5 col-sm-5 d-flex py-1">
+              <div class="col-md-5 col-sm-5 d-flex py-1" *ngIf="currentLocation && currentLocation!=''">
                  <div><img src="assets/img/map-marker.png" alt="" width="30px"></div>
                  <div><span>Your Location</span>
-                    <p>11 Phase, Mohali</p>
+                    <p class="location-address">{{currentLocation}}</p>
                  </div>
               </div>
               <div class="col-md-7 col-sm-7">

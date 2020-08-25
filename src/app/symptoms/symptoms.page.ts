@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { NavController } from '@ionic/angular';
 import { Router } from '@angular/router';
 import { ApiService } from '../api.service';
+import { Geolocation } from '@ionic-native/geolocation/ngx';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 declare var google: any;
 
@@ -22,9 +24,11 @@ export class SymptomsPage implements OnInit {
   organData: any = [];
   chronicData: any = [];
   roleData: any = [];
-  constructor(public nactrl:NavController,public router:Router,public api: ApiService) { }
+  currentLocation:any='';
+  constructor(public httpClient:HttpClient,public nactrl:NavController,public router:Router,public api: ApiService,public geolocation:Geolocation) { }
 
   ngOnInit() {
+  this.getCurrentLatLong();
   }
 
   
@@ -41,6 +45,21 @@ export class SymptomsPage implements OnInit {
     this.getSpecialist();
     this.getChronic();
     this.getOrgan();
+  }
+  getCurrentLatLong() {
+    this.geolocation.getCurrentPosition().then((resp) => {
+      console.log(resp.coords.latitude);
+      console.log(resp.coords.longitude);
+      this.httpClient.get('https://nominatim.openstreetmap.org/search?format=geojson&q=' + resp.coords.latitude + ',' + resp.coords.longitude).subscribe(data => {
+        console.log('newdata', data);
+        if (data['features'].length > 0) {
+          this.currentLocation = data['features'][0].properties.display_name;
+        } else {
+        }
+      })
+    }).catch((error) => {
+      console.log('Error getting location', error);
+    });
   }
   getSymptoms() {
     // this.component.presentLoading('symptoms');

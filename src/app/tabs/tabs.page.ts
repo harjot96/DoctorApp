@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['tabs.page.scss']
 })
 export class TabsPage {
-
-  constructor() {}
+userData:any='';
+  constructor() {
+    this.userData = JSON.parse(localStorage.getItem('userData'));
+    console.log(this.userData);
+  }
 
 }
