@@ -3,11 +3,8 @@ import { NavController } from '@ionic/angular';
 import { HeremapService } from '../heremap.service';
 import { ApiService } from '../api.service';
 import { ComponentServiceService } from '../component-service.service';
-<<<<<<< HEAD
-=======
-import { ComponentServiceService } from '../component-service.service';
->>>>>>> 8f4cdb0f2a1801ab6f4cb1708c1e5975e227ee36
 
+// declare var $:any;
 declare var google: any;
 @Component({
   selector: 'app-two-tabs',
@@ -90,6 +87,12 @@ export class TwoTabsPage implements OnInit {
         this.symptomData = [];
       }
     })
+    // this.getSymptoms();
+  //   $('select').on('change', function (e) {
+  //     var optionSelected = $("option:selected", this);
+  //     var valueSelected = this.value;
+  //     console.log(valueSelected)
+  // });
   }
 
   ngOnInit() {
@@ -185,5 +188,8 @@ export class TwoTabsPage implements OnInit {
       }, 400)
     }
 
+  }
+  bookAppointment() {
+    this.navctrl.navigateForward('start/tabs/time-slot')
   }
 }
