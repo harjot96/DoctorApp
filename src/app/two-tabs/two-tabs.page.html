@@ -24,10 +24,9 @@
           <div class="form-group text-left">
              <label>Choose Category</label>
              <div class="d-flex justify-content-between align-items-center inbox">
-                <select id="name">
-                   <option>Cardiology</option>
-                   <option>Cardiology</option>
-                </select>
+                <select id="name" [(ngModel)]="selectedSymptom" [ngModelOptions]="{standalone: true}" ng-change="selected(sym)">
+                   <option *ngFor ="let sym of symptomData" value = "{{sym.subcat_id}}">{{sym.name}}</option>
+                 </select>
              </div>
           </div>
        </form>
@@ -39,12 +38,14 @@
       <div class="inner-sign">
         <div class="container">
           <div class="row">
-            <div class="col-12 inner-txt">
-              <div class="box">
-                  <div class=""><img src="/assets/img/profile-pic.png" alt="" ></div>
-                  <div>
-                    <h3>Kelly Walker</h3>
-                    <p>MBBS, OrthoMD</p>
+            <div class="col-12 inner-txt" *ngIf="docterlist?.length>0">
+              <div class="box" *ngFor="let data of docterlist"> 
+                  <div class="">
+                    <img src="/assets/img/profile-pic.png" alt="" *ngIf="data?.profile_image == null || data?.profile_image == ''">
+                  <img src="{{data?.profile_image}}" alt="" *ngIf="data?.profile_image != null && data?.profile_image != ''"></div>
+                    <div>
+                    <h3>{{data.name}}</h3>
+                    <p>{{data.doctor_role}}</p>
                     <ul class="rating">
                        <li><img src="/assets/img/star.png" alt=""></li>
                        <li><img src="/assets/img/star.png" alt=""></li>
@@ -53,7 +54,8 @@
                        <li><img src="/assets/img/star2.png" alt=""></li>
                     </ul>
                   </div>
-                  <div class="status"><p>7Years Exp.</p>
+                  <div class="status">
+                    <!-- <p>7Years Exp.</p> -->
                     <ion-button style="    height: 19px;
                     width: 100px;
                     font-size: 11px;
@@ -61,7 +63,7 @@
                   </div>
                 </div>
               
-                <div class="box">
+                <!-- <div class="box">
                   <div class=""><img src="/assets/img/calling2.png" alt="" ></div>
                   <div>
                     <h3>John Morgon</h3>
@@ -143,8 +145,13 @@
                     font-size: 11px;
                     --background: #0ab8f5;" (click)="bookAppointment()">Book Appointment</ion-button>
                   </div>
-                </div>
+                </div> -->
                 <br><br>
+            </div>
+            <div class="col-12 inner-txt" *ngIf="docterlist?.length == 0 && noData">
+              <div class="no-data">
+                <p>No Data Found.</p>
+              </div>
             </div>
           </div>
         </div>
