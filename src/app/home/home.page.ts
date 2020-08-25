@@ -67,7 +67,12 @@ export class HomePage implements OnInit {
                 if (parseInt(res.data.profile_image_status) === 1) {
                   if (parseInt(res.data.basic_info_status) === 1) {
                     localStorage.setItem('userData', JSON.stringify(res.data));
-                    this.navctrl.navigateRoot('start');
+                    if(res.data.role == 'client'){
+                      this.navctrl.navigateRoot('start');
+                    }else{
+                      this.navctrl.navigateRoot('start/tabs/tab2');
+
+                    }
                   } else {
                     this.navctrl.navigateForward('profile2');
                   }

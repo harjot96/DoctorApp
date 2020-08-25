@@ -4,9 +4,9 @@
     <div class="inner-sign">
       <div class="container">
       <div class="row main-tp pt-2">
-        <div class="col-md-12 col-12 top-content d-flex justify-content-right align-items-center" (click)="selectImage()">
-          <div *ngIf="userData?.profile_image ===''"><img src="/assets/img/profile-pic.png" alt=""></div>
-          <div *ngIf="userData?.profile_image!=''"><img [src]="image" onerror="this.src='/assets/img/profile-pic.png';" alt=""></div>
+        <div class="col-md-12 col-12 top-content d-flex justify-content-right align-items-center" >
+          <div *ngIf="userData?.profile_image ===''" (click)="selectImage()"><img src="/assets/img/profile-pic.png" alt=""></div>
+          <div *ngIf="userData?.profile_image!=''" (click)="selectImage()"><img [src]="image" onerror="this.src='/assets/img/profile-pic.png';" alt=""></div>
 
           <div class="boxx">           
               <h2>{{user?.name}}</h2>
