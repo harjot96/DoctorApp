@@ -11,13 +11,17 @@
   </div>
   </div>
   <div class="row slots">
-    <div class="col-4 inr">
-      <div class="box">
-          <h2>10:30 am</h2>
-          <p>12th May</p>
-      </div>
-    </div>
-    <div class="col-4 inr">
+    <!-- <ion-slides  [options]="slideOpts" >
+      <ion-slide> -->
+        <div class="col-4 inr"  *ngFor="let data of slotData; let i=index"  (click)="selectSlot(data, i)">
+          <div class="box {{data?.class && (data?.class!=='') ? data?.class : ''}}">
+              <h2>{{data?.value}}</h2>
+          </div>
+        </div>
+      <!-- </ion-slide>
+    </ion-slides> -->
+    
+    <!-- <div class="col-4 inr">
       <div class="box">
         <h2>01:30 pm</h2>
         <p>12th May</p>
@@ -46,7 +50,7 @@
         <h2>05:30 pm</h2>
         <p>29th August</p>
     </div>
-    </div>
+    </div> -->
 </div>
 
 <!---------------->

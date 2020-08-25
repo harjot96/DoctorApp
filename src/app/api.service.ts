@@ -9,6 +9,7 @@ import { map, tap, switchMap } from 'rxjs/operators';
 })
 export class ApiService {
   subcaategoryData:any='';
+  cat_id:any='';
   constructor(public http:HttpClient) 
   
   {

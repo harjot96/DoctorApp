@@ -68,7 +68,9 @@ export class TwoTabsPage implements OnInit {
       console.log(this.api.subcaategoryData.subcat_id)
       this.getDoctors();
     }
+    if(this.api.cat_id && this.api.cat_id!=''){
     this.getSymptoms();
+    }
     $("#sys").change(function () {
       var id = $(this).children(":selected").attr("id");
       console.log(id)
@@ -81,10 +83,9 @@ export class TwoTabsPage implements OnInit {
     }, 1000)
   }
   select_service(evn) {
-    console.log(evn.target,this.selectedSymptom)
+    console.log(this.selectedSymptom)
     // this.selectedSymptom = evn.target.value;
     if (this.api.subcaategoryData && this.api.subcaategoryData != '') {
-      this.selectedSymptom = this.api.subcaategoryData.subcat_id;
       console.log(this.api.subcaategoryData.subcat_id)
       this.getDoctors();
     }
@@ -114,7 +115,7 @@ export class TwoTabsPage implements OnInit {
   getSymptoms() {
     // this.component.presentLoading('symptoms');
     var fd = new FormData();
-    fd.append('category_id', '1')
+    fd.append('category_id', this.api.cat_id)
     this.api.post('subcategorylist.php', fd).subscribe((res: any) => {
       // this.component.dismissLoader('symptoms');
       console.log(res);

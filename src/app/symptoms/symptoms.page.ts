@@ -32,8 +32,9 @@ export class SymptomsPage implements OnInit {
   }
 
   
-  view(data){
+  view(data,id){
     this.api.subcaategoryData = data;
+    this.api.cat_id  = id;
     // this.router.navigate([ 'tabs', 'two-tabs' ]);
     this.nactrl.navigateForward('start/tabs/two-tabs');
       }
