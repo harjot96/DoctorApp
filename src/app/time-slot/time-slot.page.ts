@@ -14,6 +14,7 @@ export class TimeSlotPage implements OnInit {
     slidesPerView:2
     // speed: 400
   };
+  tiemArray:any='';
   slotData=[
     {'value': "08:00 AM", 'class':''},
     {'value': "08:30 AM", 'class':''},
@@ -69,7 +70,11 @@ export class TimeSlotPage implements OnInit {
     }
     this.slotData[i].class = 'active';
     console.log('<<---->>', this.slotData[i]);
-
+    this.tiemArray = {
+      'from':data.value,
+      'to': this.slotData[i+1].value
+    }
+console.log(this.tiemArray)
   }
   bookslot(){
     this.navctrl.navigateForward('start/tabs/payment')
