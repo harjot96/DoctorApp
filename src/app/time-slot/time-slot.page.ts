@@ -38,6 +38,7 @@ export class TimeSlotPage implements OnInit {
     {'value': "04:00 PM", 'class':''},
     {'value': "04:30 PM", 'class':''},
     {'value': "05:00 PM", 'class':''},
+    
     {'value': "05:30 PM", 'class':''},
     {'value': "06:00 PM", 'class':''},
     {'value': "06:30 PM", 'class':''},
