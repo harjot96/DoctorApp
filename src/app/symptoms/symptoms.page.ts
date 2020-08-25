@@ -32,7 +32,8 @@ export class SymptomsPage implements OnInit {
   }
 
   
-  view(){
+  view(data){
+    this.api.subcaategoryData = JSON.stringify(data);
     // this.router.navigate([ 'tabs', 'two-tabs' ]);
     this.nactrl.navigateForward('start/tabs/two-tabs');
       }
