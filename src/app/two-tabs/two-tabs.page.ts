@@ -3,8 +3,7 @@ import { NavController } from '@ionic/angular';
 import { HeremapService } from '../heremap.service';
 import { ApiService } from '../api.service';
 import { ComponentServiceService } from '../component-service.service';
-
-// declare var $:any;
+declare var $: any;
 declare var google: any;
 @Component({
   selector: 'app-two-tabs',
@@ -14,9 +13,9 @@ declare var google: any;
 export class TwoTabsPage implements OnInit {
   @ViewChild('map', { static: false }) mapElement: ElementRef;
   markers: any = [];
-  docterlist:any=[];
-  userData:any='';
-  noData:boolean=false;
+  docterlist: any = [];
+  userData: any = '';
+  noData: boolean = false;
   locations = [
     {
       "name": "National Museum",
@@ -58,77 +57,75 @@ export class TwoTabsPage implements OnInit {
     }
   ];
   map: any;
-  segment: string='sunny'
-  symptomData:any=[];
-  selectedSymptom:any;
-  fd=new FormData();
-
-  constructor(public navCtrl:NavController,public component:ComponentServiceService,public navctrl: NavController, public hereMap: HeremapService, public api: ApiService) {
+  segment: string = 'sunny'
+  symptomData: any = [];
+  selectedSymptom: any;
+  constructor(public navCtrl: NavController, public component: ComponentServiceService, public navctrl: NavController, public hereMap: HeremapService, public api: ApiService) {
     console.log(this.api.subcaategoryData, "subData");
     this.userData = JSON.parse(localStorage.getItem('userData'));
-    if(this.api.subcaategoryData && this.api.subcaategoryData!=''){
+    if (this.api.subcaategoryData && this.api.subcaategoryData != '') {
       this.selectedSymptom = this.api.subcaategoryData.subcat_id;
       console.log(this.api.subcaategoryData.subcat_id)
       this.getDoctors();
     }
-    // this.getSymptoms();
-  }
-
-  getSymptoms() {
-    // this.component.presentLoading('symptoms');
-    this.fd.append('category_id', '1')
-    this.api.post('subcategorylist.php', this.fd).subscribe((res: any) => {
-      console.log(res);
-      // this.component.dismissLoader('symptoms');
-      if (res.status === 'Success') {
-        this.symptomData = res.data;
-        console.log(this.symptomData ,"symptom data")
-      } else {
-        this.symptomData = [];
-      }
-    })
-    // this.getSymptoms();
-  //   $('select').on('change', function (e) {
-  //     var optionSelected = $("option:selected", this);
-  //     var valueSelected = this.value;
-  //     console.log(valueSelected)
-  // });
+    this.getSymptoms();
+    $("#sys").change(function () {
+      var id = $(this).children(":selected").attr("id");
+      console.log(id)
+    });
   }
 
   ngOnInit() {
     setTimeout(() => {
       this.loadMap();
     }, 1000)
-      }
-      selected(data){
-        this.api.subcaategoryData = data;
-        if(this.api.subcaategoryData && this.api.subcaategoryData!=''){
-          this.selectedSymptom = this.api.subcaategoryData.subcat_id;
-          console.log(this.api.subcaategoryData.subcat_id)
-          this.getDoctors();
-        }
-      }
-  getDoctors(){
-    var fd = new FormData();
-      // this.component.presentLoading('two');
-        fd.append('user_token',this.userData?.token),
-        fd.append('subcategory_id', this.api.subcaategoryData.subcat_id)
-        this.api.post('doctor_listing.php', fd).subscribe((res: any) => {
-        console.log(res);
-        // this.component.dismissLoader('two');
-        this.noData = true;
-        if (res.status === 'Success') {
-          this.docterlist = res.data;
-        } else {
-          this.docterlist =[];
-        }
-        console.log(this.docterlist)
-      })
-
-    
   }
+  select_service(evn) {
+    console.log(evn.target,this.selectedSymptom)
+    // this.selectedSymptom = evn.target.value;
+    if (this.api.subcaategoryData && this.api.subcaategoryData != '') {
+      this.selectedSymptom = this.api.subcaategoryData.subcat_id;
+      console.log(this.api.subcaategoryData.subcat_id)
+      this.getDoctors();
+    }
+  }
+  getDoctors() {
+    var fd = new FormData();
+    // this.component.presentLoading('two');
+    fd.append('user_token', this.userData?.token),
+      fd.append('subcategory_id', this.selectedSymptom)
+    this.api.post('doctor_listing.php', fd).subscribe((res: any) => {
+      console.log(res);
+      // this.component.dismissLoader('two');
+      this.noData = true;
+      if (res.status === 'Success') {
+        this.docterlist = res.data;
+      } else {
+        this.docterlist = [];
+      }
+      console.log(this.docterlist)
+    })
 
- 
+
+  }
+  bookAppointment(data) {
+    this.navctrl.navigateForward(['start/tabs/time-slot'], {queryParams:{data:JSON.stringify(data.doctor_id)}})
+  }
+  getSymptoms() {
+    // this.component.presentLoading('symptoms');
+    var fd = new FormData();
+    fd.append('category_id', '1')
+    this.api.post('subcategorylist.php', fd).subscribe((res: any) => {
+      // this.component.dismissLoader('symptoms');
+      console.log(res);
+      if (res.status == 'Success') {
+        this.symptomData = res.data;
+        console.log(this.symptomData, "symptom data")
+      } else {
+        this.symptomData = [];
+      }
+    })
+  }
   loadMap() {
     
     let latLng = new google.maps.LatLng(this.api.Latitude,this.api.longitude);
@@ -147,14 +144,14 @@ export class TwoTabsPage implements OnInit {
     }
     this.map = new google.maps.Map(this.mapElement.nativeElement, mapOptions);
     // this.addMarker();
-    for (let i = 0; i <= this.locations.length; i++) {
-      this.addMarker(this.locations[i])
+    for (let i = 0; i <= this.docterlist.length; i++) {
+      this.addMarker(this.docterlist[i])
     }
 
   }
   addMarker(data) {
     let image = "https://img.icons8.com/ultraviolet/40/000000/marker.png";
-    const position = new google.maps.LatLng(data.latitude, data.longitude);
+    const position = new google.maps.LatLng(data.doctor_lat, data.doctor_lng);
     let marker = new google.maps.Marker({
       map: this.map,
       animation: google.maps.Animation.DROP,
@@ -163,7 +160,7 @@ export class TwoTabsPage implements OnInit {
 
     });
 
-    let content = "sdds"
+    let content =data;
 
     this.addInfoWindow(marker, content);
 
@@ -171,7 +168,7 @@ export class TwoTabsPage implements OnInit {
   addInfoWindow(marker, content) {
 
     let infoWindow = new google.maps.InfoWindow({
-      content: content
+      content:content.name
     });
 
     google.maps.event.addListener(marker, 'click', () => {
@@ -189,7 +186,5 @@ export class TwoTabsPage implements OnInit {
     }
 
   }
-  bookAppointment() {
-    this.navctrl.navigateForward('start/tabs/time-slot')
-  }
+
 }

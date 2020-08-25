@@ -19,8 +19,8 @@
                </p>
               <div class="form-group text-left" >
                 <label>Gender</label>
-                <div class="d-flex justify-content-between align-items-center inbox">
-                  <ion-select id="gender1" class="ion-no-padding" formControlName="gender" interface="action-sheet" placeholder ="Select gender">
+                <div class="d-flex justify-content-between align-items-center inbox ">
+                  <ion-select id="gender1" class="ion-no-padding ion-margin-top" formControlName="gender" interface="action-sheet" placeholder ="Select gender">
                     <ion-select-option value="female">Female</ion-select-option>
                     <ion-select-option value="male">Male</ion-select-option>
                   </ion-select>
@@ -32,7 +32,7 @@
               <div class="form-group text-left" *ngIf="userData.role == 'doctor'">
                 <label>Role</label>
                 <div class="d-flex justify-content-between align-items-center inbox">
-                  <ion-select  interface="action-sheet" placeholder ="Select" multiple="true" formControlName="role">
+                  <ion-select  class="ion-no-padding ion-margin-top" interface="action-sheet" placeholder ="Select" multiple="true" formControlName="role">
                     <ion-select-option  *ngFor="let roles of roleData" value="{{roles.subcat_id}}">{{roles.name}}</ion-select-option>
                    </ion-select>
                 </div>               
@@ -43,7 +43,7 @@
               <div class="form-group text-left" *ngIf="userData.role == 'doctor'">
                 <label>Top Specialist</label>
                 <div class="d-flex justify-content-between align-items-center inbox">
-                  <ion-select interface="action-sheet" placeholder ="Select Specialist" multiple="true"  formControlName="specialist">
+                  <ion-select interface="action-sheet" class="ion-no-padding ion-margin-top" placeholder ="Select Specialist" multiple="true"  formControlName="specialist">
                     <!-- <ion-select-option  value="female">Female</ion-select-option> -->
                     <ion-select-option *ngFor="let specialist of specialistData" value="{{specialist.subcat_id}}">{{specialist.name}}</ion-select-option>
                   </ion-select>
@@ -55,7 +55,7 @@
               <div class="form-group text-left" *ngIf="userData.role == 'doctor'">
                 <label>Common Symptoms</label>
                 <div class="d-flex justify-content-between align-items-center inbox">
-                  <ion-select interface="action-sheet" formControlName="symptoms" multiple="true" form placeholder ="Select Symptoms">
+                  <ion-select interface="action-sheet" class="ion-no-padding ion-margin-top" formControlName="symptoms" multiple="true" form placeholder ="Select Symptoms">
                     <ion-select-option *ngFor="let sym of symptomData" value="{{sym.subcat_id}}">{{sym.name}}</ion-select-option>
                   </ion-select>
                 </div>               
@@ -66,7 +66,7 @@
               <div class="form-group text-left" *ngIf="userData.role == 'doctor'">
                 <label>Oragn Health</label>
                 <div class="d-flex justify-content-between align-items-center inbox">
-                  <ion-select  interface="action-sheet" placeholder ="Select Organ Health" multiple="true" formControlName="organ">
+                  <ion-select class="ion-no-padding ion-margin-top" interface="action-sheet" placeholder ="Select Organ Health" multiple="true" formControlName="organ">
                     <ion-select-option  *ngFor="let organ of organData" value="{{organ.subcat_id}}">{{organ.name}}</ion-select-option>
                    </ion-select>
                 </div>               
@@ -77,7 +77,7 @@
               <div class="form-group text-left" *ngIf="userData.role == 'doctor'">
                 <label>Chronic & Long term care</label>
                 <div class="d-flex justify-content-between align-items-center inbox">
-                  <ion-select  interface="action-sheet" placeholder ="Select" multiple="true" formControlName="chronic">
+                  <ion-select class="ion-no-padding ion-margin-top" interface="action-sheet" placeholder ="Select" multiple="true" formControlName="chronic">
                     <ion-select-option  *ngFor="let chronic of chronicData" value="{{chronic.subcat_id}}">{{chronic.name}}</ion-select-option>
                    </ion-select>
                 </div>               
