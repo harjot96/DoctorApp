@@ -121,6 +121,7 @@ export class Profile2Page implements OnInit {
           this.component.dismissLoader('profile')
           this.component.presentToast(res.message, 'success');
           console.log(res);
+          localStorage.setItem('userData',JSON.stringify(this.userData))
           // this.navctrl.navigateRoot('start');
           if(this.userData?.role == 'client'){
             this.navctrl.navigateRoot('start');
