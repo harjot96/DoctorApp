@@ -128,7 +128,9 @@ export class TwoTabsPage implements OnInit {
     })
   }
   loadMap() {
-    let latLng = new google.maps.LatLng(40.7128, 74.0060);
+    
+    let latLng = new google.maps.LatLng(this.api.Latitude,this.api.longitude);
+
     let mapOptions = {
       center: latLng,
       zoom: 5,
@@ -143,14 +145,14 @@ export class TwoTabsPage implements OnInit {
     }
     this.map = new google.maps.Map(this.mapElement.nativeElement, mapOptions);
     // this.addMarker();
-    for (let i = 0; i <= this.locations.length; i++) {
-      this.addMarker(this.locations[i])
+    for (let i = 0; i <= this.docterlist.length; i++) {
+      this.addMarker(this.docterlist[i])
     }
 
   }
   addMarker(data) {
     let image = "https://img.icons8.com/ultraviolet/40/000000/marker.png";
-    const position = new google.maps.LatLng(data.latitude, data.longitude);
+    const position = new google.maps.LatLng(data.doctor_lat, data.doctor_lng);
     let marker = new google.maps.Marker({
       map: this.map,
       animation: google.maps.Animation.DROP,
@@ -159,7 +161,7 @@ export class TwoTabsPage implements OnInit {
 
     });
 
-    let content = "sdds"
+    let content =data;
 
     this.addInfoWindow(marker, content);
 
@@ -167,7 +169,7 @@ export class TwoTabsPage implements OnInit {
   addInfoWindow(marker, content) {
 
     let infoWindow = new google.maps.InfoWindow({
-      content: content
+      content:content.name
     });
 
     google.maps.event.addListener(marker, 'click', () => {
@@ -185,4 +187,5 @@ export class TwoTabsPage implements OnInit {
     }
 
   }
+
 }

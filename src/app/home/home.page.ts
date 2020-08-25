@@ -55,7 +55,7 @@ export class HomePage implements OnInit {
         fd.append('device_token', 'aezdwt7851seew2'),
         fd.append('device_type', 'ios'),
         this.api.post('login.php', fd).subscribe((res: any) => {
-          console.log(res, res.data.token);
+          // console.log(res, res.data.token);
           if (res.status == 'Success') {
             localStorage.setItem('registerData', JSON.stringify(res.data));
             localStorage.setItem('token', res.data.token)

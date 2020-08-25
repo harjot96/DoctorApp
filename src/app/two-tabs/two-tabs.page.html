@@ -23,14 +23,12 @@
         <form>
           <div class="form-group text-left">
             <ion-item>
-             <ion-label>Choose Category</ion-label>
-             <div class="d-flex justify-content-between align-items-center inbox">
+             <ion-label position="floating">Choose Category</ion-label>
                 <!-- <ion-label>Gender</ion-label> -->
                 <ion-select placeholder="Select One" (ionChange)="select_service($event)" [(ngModel)]="selectedSymptom" [ngModelOptions]="{standalone: true}" >
                   <ion-select-option *ngFor ="let sym of symptomData"  value="{{sym.subcat_id}}">{{sym.name}}</ion-select-option>
                   <!-- <ion-select-option value="m">Male</ion-select-option> -->
                 </ion-select>
-              </div>
             </ion-item>
 
           </div>

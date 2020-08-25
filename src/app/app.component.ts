@@ -23,7 +23,10 @@ export class AppComponent {
     this.storage.clear();
     this.platform.ready().then(() => {
       this.statusBar.styleDefault();
+      this.statusBar.overlaysWebView(false);
+      this.statusBar.backgroundColorByHexString('#404F4F')
       this.splashScreen.hide();
+
     });
   }
 }

@@ -11,17 +11,13 @@
   </div>
   </div>
   <div class="row slots">
-    <!-- <ion-slides  [options]="slideOpts" >
-      <ion-slide> -->
-        <div class="col-4 inr"  *ngFor="let data of slotData; let i=index"  (click)="selectSlot(data, i)">
-          <div class="box {{data?.class && (data?.class!=='') ? data?.class : ''}}">
-              <h2>{{data?.value}}</h2>
-          </div>
-        </div>
-      <!-- </ion-slide>
-    </ion-slides> -->
-    
-    <!-- <div class="col-4 inr">
+    <div class="col-4 inr">
+      <div class="box">
+          <h2>10:30 am</h2>
+          <p>12th May</p>
+      </div>
+    </div>
+    <div class="col-4 inr">
       <div class="box">
         <h2>01:30 pm</h2>
         <p>12th May</p>
@@ -50,16 +46,23 @@
         <h2>05:30 pm</h2>
         <p>29th August</p>
     </div>
-    </div> -->
+    </div>
 </div>
-
+<form>
 <!---------------->
 <div class="row">
   <div class="col-12">
     <div class="form-group px-3">
       <label >Book Your Appointment</label>
-      <input type="date" name="bday" max="3000-12-31" 
-             min="1000-01-01" class="form-control">
+      <ion-datetime
+      displayFormat="YYYY-MM-DD"
+      pickerFormat="YYYY-MM-DD"
+      formControlName="appointment_date"
+      min="{{today}}"
+     placeholder="Select Date"
+    ></ion-datetime>
+      <!-- <input type="date" name="bday" max="3000-12-31" 
+             min="1000-01-01" class="form-control"> -->
      </div>
   </div>
   </div>
@@ -67,4 +70,5 @@
   <div style="text-align: center; margin-top: 20px;">
     <ion-button (click)="bookslot()" >Book Slot</ion-button>
   </div>
+</form>
 </ion-content>

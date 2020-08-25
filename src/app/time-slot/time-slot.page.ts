@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { NavController } from '@ionic/angular';
 import { ActivatedRoute, Router } from '@angular/router';
+import * as moment from 'moment';
+import { FormGroup, FormControl, Validators, AbstractControl } from '@angular/forms';
 
 @Component({
   selector: 'app-time-slot',
@@ -9,6 +11,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class TimeSlotPage implements OnInit {
   doctorId:any='';
+  slotForm: FormGroup
   slideOpts = {
     initialSlide: 0,
     slidesPerView:2
@@ -45,8 +48,10 @@ export class TimeSlotPage implements OnInit {
     {'value': "09:00 PM", 'class':''}
     // "09:30 PM",
   ]
+  today = moment(new Date()).format('YYYY-MM-DD');
   constructor(public navctrl:NavController, public route:ActivatedRoute) {
     console.log(this.slotData, "soltss")
+    
     this.route.queryParams.subscribe(params => {
       if (params && params.data) {
         this.doctorId = JSON.parse(params.data);
